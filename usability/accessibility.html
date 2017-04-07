@@ -1,435 +1,683 @@
 <!DOCTYPE html>
-<html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}">
+<html  class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}" >
+
   <head>
     <meta charset="utf-8">
-    <link href="../static/css/main.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons" rel="stylesheet">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Accessibility - Usability - Material design guidelines</title>
-    <meta itemprop="name" content="Accessibility - Usability - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Accessibility - Usability - Material design guidelines">
-    <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-    <meta property="og:site_name" content="Material design guidelines">
-    <meta property="article:section" content="Accessibility - Usability">
-    <meta name="theme-color" content="#AD1457">
-    <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
-    <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
-    <meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
-    <meta name="msapplication-tap-highlight" content="no">
-    
-<!--
-<PageMap>
-    <DataObject type="document">
-      <Attribute name="uid"></Attribute>
-      <Attribute name="title">Accessibility</Attribute>
-      <Attribute name="keywords"></Attribute>
-      <Attribute name="slug"></Attribute>
-      <Attribute name="description"></Attribute>
-      <Attribute name="section_title">Usability</Attribute>
-      <Attribute name="section_slug">usability</Attribute>
-    </DataObject>
-    <DataObject type="thumbnail">
-      <Attribute name="src" value="" />
-    </DataObject>
-</PageMap>
--->
-  </head>
+<link href="../static/default/css/main.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400|Material+Icons" rel="stylesheet">
+<meta name="viewport" content="initial-scale=1, width=device-width"><title>Accessibility - Usability - Material design guidelines</title>
+<meta itemprop="name" content="Accessibility - Usability - Material design guidelines">
+<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Accessibility - Usability - Material design guidelines">
+<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Accessibility - Usability">
+<meta property="og:site_name" content="Material design guidelines">
+<meta property="og:image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta property="article:section" content="Accessibility - Usability">
+<meta name="theme-color" content="#AD1457">
+<link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
+<link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
+<meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+<meta name="msapplication-tap-highlight" content="no">
 
-  
-  
+    
+    
+  </head>
 
   <body class="site-material_ext_publish section-material-design first-chapter color-pink qp-ui" data-qp-ui="{ 'Mask': {} }">
     
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NHRPF8');</script>
-    <!-- End Google Tag Manager -->
-    
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRPF8');</script>
+<!-- End Google Tag Manager -->
 
-    
-
-      <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
-        <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
-          <div class="header-title">
-            <span class="section-title">Usability</span>
-            <span class="chapter-title">
-              <span class="title-separator">–</span> Accessibility
-            </span>
-          </div>
-        </div>
-      </header>
 
     
+  
 
-    <nav>
-      <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
-        <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
-      </button>
-    </nav>
-
-    
-      <form id="search-form" action="https://material.io/guidelines/search.html" method="GET">
-        <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
-          <button class="search-button"><i class="material-icons">search</i></button>
-          <button class="search-close-button"><i class="material-icons">close</i></button>
-          <input name="q" type="text" id="search-input" autocomplete="off">
-          <label for="search-input">Search</label>
-        </div>
-      </form>
-    
-
-    
-
-    
-
-    
-
-    
-    
-    <div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
-      <div class="side-nav-wrapper ">
-        <div>
-          <span id="logo"><a href="https://material.io/"><img src="../static/images/material-design.svg" alt="Logo"/></a></span>
-          <nav>
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
-                <dd>
-                  
-                    <a  href="../material-design/introduction.html">Introduction </a>
-                  
-                    <a  href="../material-design/environment.html">Environment</a>
-                  
-                    <a  href="../what-is-material/material-properties.html">Material properties</a>
-                  
-                    <a  href="../what-is-material/elevation-shadows.html">Elevation &amp; shadows</a>
-                  
-                    <a  href="../material-design/whats-new.html">What’s new</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Motion</dt>
-                <dd>
-                  
-                    <a  href="../animation/authentic-motion.html">Material motion</a>
-                  
-                    <a  href="../motion/duration-easing.html">Duration &amp; easing</a>
-                  
-                    <a  href="../motion/movement.html"> Movement</a>
-                  
-                    <a  href="../motion/transforming-material.html">Transforming material</a>
-                  
-                    <a  href="../motion/choreography.html">Choreography</a>
-                  
-                    <a  href="../motion/creative-customization.html">Creative customization</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
-                <dd>
-                  
-                    <a  href="../style/color.html">Color</a>
-                  
-                    <a  href="../style/icons.html">Icons</a>
-                  
-                    <a  href="../style/imagery.html">Imagery</a>
-                  
-                    <a  href="../style/typography.html">Typography</a>
-                  
-                    <a  href="../style/writing.html">Writing</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
-                <dd>
-                  
-                    <a  href="../layout/principles.html">Principles</a>
-                  
-                    <a  href="../layout/units-measurements.html">Units &amp; measurements</a>
-                  
-                    <a  href="../layout/metrics-keylines.html">Metrics &amp; keylines</a>
-                  
-                    <a  href="../layout/structure.html">Structure</a>
-                  
-                    <a  href="../layout/adaptive-ui.html">Responsive UI</a>
-                  
-                    <a  href="../layout/split-screen.html">Split screen</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Components</dt>
-                <dd>
-                  
-                    <a  href="../components/bottom-navigation.html">Bottom navigation</a>
-                  
-                    <a  href="../components/bottom-sheets.html">Bottom sheets</a>
-                  
-                    <a  href="../components/buttons.html">Buttons</a>
-                  
-                    <a  href="../components/buttons-floating-action-button.html">Buttons: Floating Action Button</a>
-                  
-                    <a  href="../components/cards.html">Cards</a>
-                  
-                    <a  href="../components/chips.html">Chips</a>
-                  
-                    <a  href="../components/data-tables.html">Data tables</a>
-                  
-                    <a  href="../components/dialogs.html">Dialogs</a>
-                  
-                    <a  href="../components/dividers.html">Dividers</a>
-                  
-                    <a  href="../components/expansion-panels.html">Expansion panels</a>
-                  
-                    <a  href="../components/grid-lists.html">Grid lists</a>
-                  
-                    <a  href="../components/lists.html">Lists</a>
-                  
-                    <a  href="../components/lists-controls.html">Lists: Controls</a>
-                  
-                    <a  href="../components/menus.html">Menus</a>
-                  
-                    <a  href="../components/pickers.html">Pickers</a>
-                  
-                    <a  href="../components/progress-activity.html">Progress &amp; activity</a>
-                  
-                    <a  href="../components/selection-controls.html">Selection controls</a>
-                  
-                    <a  href="../components/sliders.html">Sliders</a>
-                  
-                    <a  href="../components/snackbars-toasts.html">Snackbars &amp; toasts</a>
-                  
-                    <a  href="../components/steppers.html">Steppers</a>
-                  
-                    <a  href="../components/subheaders.html">Subheaders</a>
-                  
-                    <a  href="../components/tabs.html">Tabs</a>
-                  
-                    <a  href="../components/text-fields.html">Text fields</a>
-                  
-                    <a  href="../components/toolbars.html">Toolbars</a>
-                  
-                    <a  href="../components/tooltips.html">Tooltips</a>
-                  
-                    <a  href="../components/widgets.html">Widgets</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
-                <dd>
-                  
-                    <a  href="../patterns/confirmation-acknowledgement.html">Confirmation &amp; acknowledgement</a>
-                  
-                    <a  href="../patterns/data-formats.html">Data formats</a>
-                  
-                    <a  href="../patterns/empty-states.html">Empty states</a>
-                  
-                    <a  href="../patterns/errors.html">Errors</a>
-                  
-                    <a  href="../patterns/fingerprint.html">Fingerprint</a>
-                  
-                    <a  href="../patterns/gestures.html">Gestures </a>
-                  
-                    <a  href="../patterns/help-feedback.html">Help &amp; feedback</a>
-                  
-                    <a  href="../patterns/launch-screens.html">Launch screens</a>
-                  
-                    <a  href="../patterns/loading-images.html">Loading images</a>
-                  
-                    <a  href="../patterns/app-structure.html">Navigation</a>
-                  
-                    <a  href="../patterns/navigation-drawer.html">Navigation drawer</a>
-                  
-                    <a  href="../patterns/navigational-transitions.html">Navigational transitions</a>
-                  
-                    <a  href="../patterns/notifications.html">Notifications</a>
-                  
-                    <a  href="../patterns/permissions.html">Permissions</a>
-                  
-                    <a  href="../patterns/scrolling-techniques.html">Scrolling techniques</a>
-                  
-                    <a  href="../patterns/search.html">Search </a>
-                  
-                    <a  href="../patterns/selection.html">Selection </a>
-                  
-                    <a  href="../patterns/settings.html">Settings </a>
-                  
-                    <a  href="../patterns/swipe-to-refresh.html">Swipe to refresh</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Growth &amp; communications</dt>
-                <dd>
-                  
-                    <a  href="../growth-communications/introduction.html">Introduction</a>
-                  
-                    <a  href="../growth-communications/onboarding.html">Onboarding</a>
-                  
-                    <a  href="../growth-communications/feature-discovery.html">Feature discovery</a>
-                  
-                    <a  href="../growth-communications/gesture-education.html">Gesture education</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Usability</dt>
-                <dd>
-                  
-                    <a class="nav_selected" href="accessibility.html">Accessibility</a>
-                  
-                    <a  href="bidirectionality.html">Bidirectionality</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Platforms </dt>
-                <dd>
-                  
-                    <a  href="../platforms/platform-adaptation.html">Platform adaptation</a>
-                  
-                    <a  href="../platforms/android.html">Android</a>
-                  
-                </dd>
-              </dl>
-
-            
-
-              
-                
-              
-
-              <dl>
-                <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
-                <dd>
-                  
-                    <a  href="../resources/color-palettes.html">Color palettes</a>
-                  
-                    <a  href="../resources/devices.html">Devices</a>
-                  
-                    <a  href="../resources/layout-templates.html">Layout templates</a>
-                  
-                    <a  href="../resources/roboto-noto-fonts.html">Roboto &amp; Noto fonts</a>
-                  
-                    <a  href="../resources/sticker-sheets-icons.html">Sticker sheets &amp; icons</a>
-                  
-                </dd>
-              </dl>
-
-            
-          </nav>
-
-
-          
-          <div class="legal">
-            <p class="copyright">Google &copy;</p>
-            <ul>
-              
-              <li>
-                <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
-              </li>
-              
-              <li>
-                <a href="http://www.google.com/policies/privacy/">Privacy</a>
-              </li>
-              <li>
-                <a href="http://www.google.com/policies/terms/">Terms</a>
-              </li>
-            </ul>
-          </div>
-          
-        </div>
+  <header class="qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 72,'desktop-sm': 72,'default': 192}}">
+    <div class="header-wrapper qp-ui" data-qp-ui="{'Peekaboo': {'mobile': 28,'desktop-sm': 28,'default': 82}}">
+      <div class="header-title">
+        <span class="section-title">Usability</span>
+        <span class="chapter-title">
+          <span class="title-separator">–</span> Accessibility
+        </span>
       </div>
+    </div>
+  </header>
+
+
+
+<nav>
+  <button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">
+    <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
+  </button>
+</nav>
+
+
+  <form id="search-form" action="https://material.io/guidelines/search.html" method="GET">
+    <div class="search-widget qp-ui" data-qp-ui="{ 'SearchInput': {} }">
+      <button class="search-button"><i class="material-icons">search</i></button>
+      <button class="search-close-button"><i class="material-icons">close</i></button>
+      <input name="q" type="text" id="search-input" autocomplete="off">
+      <label for="search-input">Search</label>
+    </div>
+  </form>
+
+  
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+  <div class="side-nav-wrapper ">
+    <div>
+      <span id="logo">
+
+      <a href="https://material.io/">
 
       
+        <svg width="240" height="43" viewBox="0 0 240 43" xmlns="http://www.w3.org/2000/svg"><title>Artboard</title><g fill="none" fill-rule="evenodd"><g transform="translate(0 4)"><circle fill="#212121" cx="17" cy="17" r="17"/><path fill="#BDBDBD" d="M5.1 5.1h23.8v23.8H5.1z"/><path fill="#FFF" d="M28.9 5.1L17 28.9 5.1 5.1z"/></g><path d="M0 4h34v34H0z"/><path d="M61.682 13.781l2.314 7.11 2.5-7.11h2.246V28h-1.758v-5.674l.147-5.937-2.627 7.656h-1.035l-2.412-7.451.146 5.732V28h-1.758V13.781h2.237zm16.806 10.537h-4.746L72.6 28h-1.807l4.59-14.219h1.513L81.408 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm19.063-7.422h-4.395V28h-1.757V15.324h-4.395v-1.543h10.547v1.543zm10.234 6.104H97.59v5.039h6.924V28h-8.73V13.781h8.642v1.543H97.59v4.57h5.937v1.534zm8.887.771h-2.842V28h-1.797V13.781h4.17c.664.013 1.29.108 1.875.283.586.176 1.099.44 1.538.791.44.352.785.793 1.036 1.324.25.53.376 1.154.376 1.87 0 .462-.067.885-.2 1.27a3.817 3.817 0 0 1-.552 1.044c-.235.313-.515.59-.84.83a5.486 5.486 0 0 1-1.074.616l3.017 6.074-.01.117h-1.904l-2.793-5.8v-.001zm-2.842-1.484h2.422c.404-.007.785-.07 1.143-.19.358-.121.672-.295.942-.523a2.47 2.47 0 0 0 .64-.835c.156-.329.234-.708.234-1.138 0-.455-.075-.854-.224-1.196a2.384 2.384 0 0 0-.625-.86 2.675 2.675 0 0 0-.953-.522 4.162 4.162 0 0 0-1.206-.185h-2.373v5.449zm10.137-6.934h8.594v1.573h-3.408v11.084h3.408V28h-8.594v-1.563h3.33V15.355h-3.33V13.78v.001zm18.789 10.537h-4.746L132.609 28h-1.806l4.59-14.219h1.513L141.418 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm11.514 3.72h6.953V28h-8.76V13.781h1.807v12.686-.001zM163.53 28V13.781h3.291c.99.013 1.874.18 2.652.503a5.57 5.57 0 0 1 1.972 1.348c.55.597.968 1.302 1.23 2.07.284.804.429 1.694.435 2.671v1.045c-.006.977-.151 1.867-.434 2.67a5.837 5.837 0 0 1-1.23 2.071 5.57 5.57 0 0 1-1.973 1.348c-.778.322-1.662.486-2.652.493h-3.291zm1.836-12.734v11.26h1.455c.768-.007 1.433-.142 1.992-.406a3.886 3.886 0 0 0 1.392-1.079c.368-.456.641-.993.82-1.611.18-.619.272-1.29.279-2.012v-1.064a7.27 7.27 0 0 0-.284-2.007 4.606 4.606 0 0 0-.82-1.602 3.817 3.817 0 0 0-1.387-1.07c-.56-.26-1.224-.396-1.992-.41h-1.455v.001zm18.174 6.162h-5.937v5.039h6.923V28h-8.73V13.781h8.642v1.543h-6.835v4.57h5.937v1.534zm11.621 2.978c0-.436-.1-.804-.298-1.103-.2-.302-.462-.56-.766-.757a4.989 4.989 0 0 0-1.03-.513c-.375-.137-.735-.26-1.08-.37a16.253 16.253 0 0 1-1.528-.587 6.663 6.663 0 0 1-1.416-.84 4.231 4.231 0 0 1-1.045-1.176c-.27-.453-.405-.985-.405-1.597s.135-1.159.405-1.64c.27-.483.623-.89 1.06-1.221a4.773 4.773 0 0 1 1.484-.757 5.582 5.582 0 0 1 1.67-.26c.618 0 1.214.103 1.787.309a4.94 4.94 0 0 1 1.523.864c.443.37.798.82 1.065 1.347a4.04 4.04 0 0 1 .42 1.768h-1.856a3.947 3.947 0 0 0-.302-1.118 2.766 2.766 0 0 0-.596-.864 2.612 2.612 0 0 0-.884-.562 3.16 3.16 0 0 0-1.157-.2c-.345 0-.682.049-1.01.146a2.718 2.718 0 0 0-.88.44c-.255.193-.465.44-.615.723a2.08 2.08 0 0 0-.23.996c.007.41.111.756.313 1.04.202.283.457.522.767.717.309.196.644.358 1.005.489.362.13.702.244 1.021.341.352.111.706.236 1.064.376.359.14.704.302 1.036.484.332.182.64.387.927.615.287.228.537.487.752.776.215.29.383.61.503.957.12.349.18.735.18 1.158 0 .638-.14 1.194-.424 1.67a3.83 3.83 0 0 1-1.099 1.186 4.95 4.95 0 0 1-1.523.713c-.566.16-1.133.24-1.7.24a5.99 5.99 0 0 1-1.855-.294 5.327 5.327 0 0 1-1.626-.844 4.425 4.425 0 0 1-1.167-1.348c-.3-.53-.459-1.134-.478-1.812h1.846c.058.443.179.835.36 1.177a2.87 2.87 0 0 0 1.695 1.406 4 4 0 0 0 1.226.181c.35 0 .7-.044 1.04-.132.326-.08.636-.22.913-.41.267-.185.485-.42.654-.703.17-.283.254-.62.254-1.01v-.001zm4.56-10.625h8.594v1.573h-3.408v11.084h3.408V28h-8.593v-1.563h3.33V15.355h-3.33V13.78l-.001.001zm21.202 12.354c-.6.703-1.286 1.224-2.06 1.562-.775.339-1.625.505-2.55.498a5.02 5.02 0 0 1-1.616-.268 4.664 4.664 0 0 1-1.323-.713 5.079 5.079 0 0 1-1.025-1.07 6.707 6.707 0 0 1-.738-1.332c-.2-.485-.35-.989-.449-1.504a8.954 8.954 0 0 1-.161-1.587v-1.65a10.29 10.29 0 0 1 .142-1.578c.085-.515.221-1.02.405-1.509.182-.481.41-.929.683-1.342.274-.414.601-.772.982-1.075.38-.302.812-.542 1.294-.717a4.704 4.704 0 0 1 1.62-.264 5.3 5.3 0 0 1 1.837.308 4.39 4.39 0 0 1 1.465.878c.416.381.752.84 1.006 1.377.253.538.41 1.138.468 1.802h-1.787a5.086 5.086 0 0 0-.332-1.138 2.87 2.87 0 0 0-.59-.893 2.617 2.617 0 0 0-.875-.581 3.076 3.076 0 0 0-1.181-.21c-.43 0-.81.073-1.143.22-.324.14-.619.34-.869.59a3.251 3.251 0 0 0-.615.865 6.141 6.141 0 0 0-.4 1.04c-.104.364-.18.737-.225 1.113a9.132 9.132 0 0 0-.069 1.094v1.67c.007.358.038.727.093 1.108.055.381.142.754.259 1.118.117.365.267.71.45 1.035.181.326.401.612.658.86.257.247.555.444.894.59.338.147.723.224 1.152.23.248.007.506-.003.777-.03.27-.025.532-.077.786-.155.254-.079.491-.184.713-.318.221-.133.407-.307.556-.522l.02-3.194h-2.89V20.92h4.609l.029 5.215zM232.633 28h-1.836l-5.518-10.625L225.25 28h-1.826V13.781h1.836l5.517 10.606.03-10.606h1.826V28z" fill="#000"/></g></svg>
+      
 
+      </a>
+
+      </span>
+      
+      <nav>
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
+            <dd>
+              
+                <a  href="../material-design/introduction.html">
+                  Introduction 
+                  
+                  </a>
+              
+                <a  href="../material-design/environment.html">
+                  Environment
+                  
+                  </a>
+              
+                <a  href="../what-is-material/material-properties.html">
+                  Material properties
+                  
+                  </a>
+              
+                <a  href="../what-is-material/elevation-shadows.html">
+                  Elevation &amp; shadows
+                  
+                  </a>
+              
+                <a  href="../material-design/whats-new.html">
+                  What’s new
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Motion</dt>
+            <dd>
+              
+                <a  href="../animation/authentic-motion.html">
+                  Material motion
+                  
+                  </a>
+              
+                <a  href="../motion/duration-easing.html">
+                  Duration &amp; easing
+                  
+                  </a>
+              
+                <a  href="../motion/movement.html">
+                   Movement
+                  
+                  </a>
+              
+                <a  href="../motion/transforming-material.html">
+                  Transforming material
+                  
+                  </a>
+              
+                <a  href="../motion/choreography.html">
+                  Choreography
+                  
+                  </a>
+              
+                <a  href="../motion/creative-customization.html">
+                  Creative customization
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+            <dd>
+              
+                <a  href="../style/color.html">
+                  Color
+                  
+                  </a>
+              
+                <a  href="../style/icons.html">
+                  Icons
+                  
+                  </a>
+              
+                <a  href="../style/imagery.html">
+                  Imagery
+                  
+                  </a>
+              
+                <a  href="../style/typography.html">
+                  Typography
+                  
+                  </a>
+              
+                <a  href="../style/writing.html">
+                  Writing
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+            <dd>
+              
+                <a  href="../layout/principles.html">
+                  Principles
+                  
+                  </a>
+              
+                <a  href="../layout/units-measurements.html">
+                  Units &amp; measurements
+                  
+                  </a>
+              
+                <a  href="../layout/metrics-keylines.html">
+                  Metrics &amp; keylines
+                  
+                  </a>
+              
+                <a  href="../layout/structure.html">
+                  Structure
+                  
+                  </a>
+              
+                <a  href="../layout/adaptive-ui.html">
+                  Responsive UI
+                  
+                  </a>
+              
+                <a  href="../layout/split-screen.html">
+                  Split screen
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Components</dt>
+            <dd>
+              
+                <a  href="../components/bottom-navigation.html">
+                  Bottom navigation
+                  
+                  </a>
+              
+                <a  href="../components/bottom-sheets.html">
+                  Bottom sheets
+                  
+                  </a>
+              
+                <a  href="../components/buttons.html">
+                  Buttons
+                  
+                  </a>
+              
+                <a  href="../components/buttons-floating-action-button.html">
+                  Buttons: Floating Action Button
+                  
+                  </a>
+              
+                <a  href="../components/cards.html">
+                  Cards
+                  
+                  </a>
+              
+                <a  href="../components/chips.html">
+                  Chips
+                  
+                  </a>
+              
+                <a  href="../components/data-tables.html">
+                  Data tables
+                  
+                  </a>
+              
+                <a  href="../components/dialogs.html">
+                  Dialogs
+                  
+                  </a>
+              
+                <a  href="../components/dividers.html">
+                  Dividers
+                  
+                  </a>
+              
+                <a  href="../components/expansion-panels.html">
+                  Expansion panels
+                  
+                  </a>
+              
+                <a  href="../components/grid-lists.html">
+                  Grid lists
+                  
+                  </a>
+              
+                <a  href="../components/lists.html">
+                  Lists
+                  
+                  </a>
+              
+                <a  href="../components/lists-controls.html">
+                  Lists: Controls
+                  
+                  </a>
+              
+                <a  href="../components/menus.html">
+                  Menus
+                  
+                  </a>
+              
+                <a  href="../components/pickers.html">
+                  Pickers
+                  
+                  </a>
+              
+                <a  href="../components/progress-activity.html">
+                  Progress &amp; activity
+                  
+                  </a>
+              
+                <a  href="../components/selection-controls.html">
+                  Selection controls
+                  
+                  </a>
+              
+                <a  href="../components/sliders.html">
+                  Sliders
+                  
+                  </a>
+              
+                <a  href="../components/snackbars-toasts.html">
+                  Snackbars &amp; toasts
+                  
+                  </a>
+              
+                <a  href="../components/steppers.html">
+                  Steppers
+                  
+                  </a>
+              
+                <a  href="../components/subheaders.html">
+                  Subheaders
+                  
+                  </a>
+              
+                <a  href="../components/tabs.html">
+                  Tabs
+                  
+                  </a>
+              
+                <a  href="../components/text-fields.html">
+                  Text fields
+                  
+                  </a>
+              
+                <a  href="../components/toolbars.html">
+                  Toolbars
+                  
+                  </a>
+              
+                <a  href="../components/tooltips.html">
+                  Tooltips
+                  
+                  </a>
+              
+                <a  href="../components/widgets.html">
+                  Widgets
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+            <dd>
+              
+                <a  href="../patterns/confirmation-acknowledgement.html">
+                  Confirmation &amp; acknowledgement
+                  
+                  </a>
+              
+                <a  href="../patterns/data-formats.html">
+                  Data formats
+                  
+                  </a>
+              
+                <a  href="../patterns/empty-states.html">
+                  Empty states
+                  
+                  </a>
+              
+                <a  href="../patterns/errors.html">
+                  Errors
+                  
+                  </a>
+              
+                <a  href="../patterns/fingerprint.html">
+                  Fingerprint
+                  
+                  </a>
+              
+                <a  href="../patterns/gestures.html">
+                  Gestures 
+                  
+                  </a>
+              
+                <a  href="../patterns/help-feedback.html">
+                  Help &amp; feedback
+                  
+                  </a>
+              
+                <a  href="../patterns/launch-screens.html">
+                  Launch screens
+                  
+                  </a>
+              
+                <a  href="../patterns/loading-images.html">
+                  Loading images
+                  
+                  </a>
+              
+                <a  href="../patterns/app-structure.html">
+                  Navigation
+                  
+                  </a>
+              
+                <a  href="../patterns/navigation-drawer.html">
+                  Navigation drawer
+                  
+                  </a>
+              
+                <a  href="../patterns/navigational-transitions.html">
+                  Navigational transitions
+                  
+                  </a>
+              
+                <a  href="../patterns/notifications.html">
+                  Notifications
+                  
+                  </a>
+              
+                <a  href="../patterns/permissions.html">
+                  Permissions
+                  
+                  </a>
+              
+                <a  href="../patterns/scrolling-techniques.html">
+                  Scrolling techniques
+                  
+                  </a>
+              
+                <a  href="../patterns/search.html">
+                  Search 
+                  
+                  </a>
+              
+                <a  href="../patterns/selection.html">
+                  Selection 
+                  
+                  </a>
+              
+                <a  href="../patterns/settings.html">
+                  Settings 
+                  
+                  </a>
+              
+                <a  href="../patterns/swipe-to-refresh.html">
+                  Swipe to refresh
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Growth &amp; communications</dt>
+            <dd>
+              
+                <a  href="../growth-communications/introduction.html">
+                  Introduction
+                  
+                  </a>
+              
+                <a  href="../growth-communications/onboarding.html">
+                  Onboarding
+                  
+                  </a>
+              
+                <a  href="../growth-communications/feature-discovery.html">
+                  Feature discovery
+                  
+                  </a>
+              
+                <a  href="../growth-communications/gesture-education.html">
+                  Gesture education
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Usability</dt>
+            <dd>
+              
+                <a class="nav_selected" href="accessibility.html">
+                  Accessibility
+                  
+                  </a>
+              
+                <a  href="bidirectionality.html">
+                  Bidirectionality
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Platforms</dt>
+            <dd>
+              
+                <a  href="../platforms/platform-adaptation.html">
+                  Platform adaptation
+                  
+                  </a>
+              
+                <a  href="../platforms/android.html">
+                  Android
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+
+          
+            
+          
+
+          <dl>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+            <dd>
+              
+                <a  href="../resources/color-palettes.html">
+                  Color palettes
+                  
+                  </a>
+              
+                <a  href="../resources/devices.html">
+                  Devices
+                  
+                  </a>
+              
+                <a  href="../resources/layout-templates.html">
+                  Layout templates
+                  
+                  </a>
+              
+                <a  href="../resources/roboto-noto-fonts.html">
+                  Roboto &amp; Noto fonts
+                  
+                  </a>
+              
+                <a  href="../resources/sticker-sheets-icons.html">
+                  Sticker sheets &amp; icons
+                  
+                  </a>
+              
+                <a  href="../resources/shadows.html">
+                  Shadows
+                  
+                  </a>
+              
+            </dd>
+          </dl>
+
+        
+      </nav>
+
+
+      
+      <div class="legal">
+        <ul>
+          
+          <li>
+            <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
+          </li>
+          
+          <li>
+            <a href="http://www.google.com/policies/privacy/">Privacy</a>
+          </li>
+          <li>
+            <a href="http://www.google.com/policies/terms/">Terms</a>
+          </li>
+        </ul>
+      </div>
+      
     </div>
+  </div>
 
-    <div id="grid-cont">
-      <section class="grid_outer chapter">
+  
+
+</div>
+
+    
+
+
+
+    
+
+  <div id="grid-cont">
+    <section class="grid_outer chapter">
+
+      
+        
+
         
         <h1 class="chapter-title">Accessibility
+
           
+            
           
+
           
-          
-          
+  
+  
+
         </h1>
         <div class="chapter-content">
 
@@ -464,9 +712,15 @@
               <div id="accessibility-principles" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
                   Principles
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -474,16 +728,22 @@
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p>A well-designed product is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments. Improving your product’s accessibility enhances the usability for all users. It’s also the right thing to do. </p><p>Material design’s built-in accessibility considerations will help you accommodate all of your users. This section primarily applies to mobile UI design. For more information on designing and developing fully accessible products, visit the <a href="https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNGE9U9SjxQHorwXVWWB6-shsgj6IQ" target="_blank">Google accessibility site</a>.</p><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Q0ZST0NfUUU0UEE/accessibility_principles1.png"/></div><figcaption><h1>Clear</h1><p>Help users navigate your app by designing clear layouts with distinct calls to action. Every added button, image, and line of text make the screen more complicated. Simplify your app’s UI with:</p><ul class="lst-kix_k028nm5n1mm4-0 start"><li>Clearly visible elements</li><li>Sufficient contrast and size</li><li>A clear hierarchy of importance </li><li>Key information discernable at a glance </li></ul></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3NTRvcWFLeEYtTjg/accessibility_principles2.png"/></div><figcaption><h1>Robust </h1><p>Design your app to accommodate a variety of users. A user may have a short attention span, be new to your product, or use a text-only <strong>screen reader</strong> (a program that uses a speech synthesizer to read text aloud or kinesthetically using a braille display). Your app should make it easy for each user to:</p><ul class="lst-kix_3clj5zpaz4lj-0 start"><li><strong>Navigate: </strong>Give users confidence in knowing where they are in your app and what is important. </li><li><strong>Understand important tasks: </strong>Reinforce important information through multiple visual and textual cues. Use color, shape, text, and motion to communicate what is happening.</li><li><strong>Access your app: </strong>Include appropriate content labelling to accommodate users who experience a text-only version of your app. </li></ul></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SzkzeEg4YWFfS28/accessibility_principles3.png"/></div><figcaption><h1>Specific</h1><p>Support assistive technologies specific to your platform, just as you support the input methods of touch, keyboard, and mouse. For example, ensure your Android app works with Google’s screen reader, <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6283677?hl%3Den%26ref_topic%3D3529932&amp;sa=D&amp;ust=1481818010703000&amp;usg=AFQjCNH_1B31INtnE75Xbq_aknefaqpD_Q" target="_blank">TalkBack</a>. </p><p><strong>Assistive technology</strong> helps increase, maintain, or improve the functional capabilities of individuals with disabilities, through devices like screen readers, magnification devices, wheelchairs, hearing aids, or memory aids. </p></figcaption></figure></div></section></div></div>
+                  <div><p>A well-designed product is accessible to users of all abilities, including those with low vision, blindness, hearing impairments, cognitive impairments, or motor impairments. Improving your product’s accessibility enhances the usability for all users. It’s also the right thing to do. </p><p>Material design’s built-in accessibility considerations will help you accommodate all of your users. This section primarily applies to mobile UI design. For more information on designing and developing fully accessible products, visit the <a href="https://www.google.com/accessibility/" target="_blank">Google accessibility site</a>.</p><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="" aria-describedby="principles-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Q0ZST0NfUUU0UEE/accessibility_principles1.png"/></div></div><figcaption id="principles-figure-caption-1"><h1>Clear</h1><p>Help users navigate your app by designing clear layouts with distinct calls to action. Every added button, image, and line of text make the screen more complicated. Simplify your app’s UI with:</p><ul class="lst-kix_k028nm5n1mm4-0 start"><li>Clearly visible elements</li><li>Sufficient contrast and size</li><li>A clear hierarchy of importance </li><li>Key information discernable at a glance </li></ul></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="" aria-describedby="principles-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3NTRvcWFLeEYtTjg/accessibility_principles2.png"/></div></div><figcaption id="principles-figure-caption-2"><h1>Robust </h1><p>Design your app to accommodate a variety of users. A user may have a short attention span, be new to your product, or use a text-only <strong>screen reader</strong> (a program that uses a speech synthesizer to read text aloud or kinesthetically using a braille display). Your app should make it easy for each user to:</p><ul class="lst-kix_3clj5zpaz4lj-0 start"><li><strong>Navigate: </strong>Give users confidence in knowing where they are in your app and what is important. </li><li><strong>Understand important tasks: </strong>Reinforce important information through multiple visual and textual cues. Use color, shape, text, and motion to communicate what is happening.</li><li><strong>Access your app: </strong>Include appropriate content labelling to accommodate users who experience a text-only version of your app. </li></ul></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="" aria-describedby="principles-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3SzkzeEg4YWFfS28/accessibility_principles3.png"/></div></div><figcaption id="principles-figure-caption-3"><h1>Specific</h1><p>Support assistive technologies specific to your platform, just as you support the input methods of touch, keyboard, and mouse. For example, ensure your Android app works with Google’s screen reader, <a href="https://support.google.com/accessibility/android/answer/6283677?hl=en&amp;ref_topic=3529932" target="_blank">TalkBack</a>. </p><p><strong>Assistive technology</strong> helps increase, maintain, or improve the functional capabilities of individuals with disabilities, through devices like screen readers, magnification devices, wheelchairs, hearing aids, or memory aids. </p></figcaption></figure></div></section></div></div>
                 </div>
               </div>
             
               <div id="accessibility-color-contrast" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
                   Color and contrast
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -491,16 +751,22 @@
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p>Use color and contrast to help users see and interpret your app’s content, interact with the right elements, and understand actions. </p><h1>Accessible color palette</h1><p>Choose primary, secondary, and accent colors for your app that support usability. Ensure sufficient color contrast between elements so that users with low vision can see and use your app.</p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Contrast ratios</h1><p>The contrast ratio between a color and its background ranges from 1-21 based on its luminance, or intensity of light emitted, according to the <a href="https://www.google.com/url?q=https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html&amp;sa=D&amp;ust=1481818010600000&amp;usg=AFQjCNGms-qT2N209tGSJg7ILk2-OCsYyA" target="_blank">World Wide Web Consortium (W3C)</a>. </p><p>Contrast ratios represent how different a color is from another color, commonly written as 1:1 or 21:1. The higher the difference between the two numbers in the ratio, the greater the difference in relative luminance between the colors. </p><p>The W3C recommends the following contrast ratios for body text and image text:</p><ul class="lst-kix_c2xsypf5z28r-0 start"><li>Small text should have a contrast ratio of at least 4.5:1 against its background.</li><li>Large text (at 14 pt bold/18 pt regular and up) should have a contrast ratio of at least 3:1 against its background.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3VXY4YWU0N2R3Vms/accessibility_color1_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>These lines of text follow the color contrast ratio recommendations and are legible against their background colors. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UFZuOTNhUlhyc2M/accessibility_color2_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>These lines of text do not meet the color contrast ratio recommendations and are difficult to read against their background colors. </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><p>Icons or other critical elements should also use the above recommended contrast ratios.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3OU93NjBTSkItR2M/accessibility_color3_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>These icons follow the color contrast ratio recommendations and are legible against their backgrounds.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RlhZM3lsUFRFWVk/accessibility_color4_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>These icons do not follow the color contrast ratio recommendations and are difficult to discern against their backgrounds. </p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Logos and decorative elements</h1><p>While decorative elements (such as logos or illustrations) don’t have to meet contrast ratios, they should be distinguishable if they possess important functionality.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3amtpNVo5SVhyajQ/accessibility_color5_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Decorative logos that are distinguishable don’t have to meet contrast ratios.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eFFmYVUtMHBSNjA/accessibility_color6_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>It is not necessary to distort your logo to meet contrast ratios.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Other visual cues</h1><p>For users who are colorblind, or cannot see differences in color, include design elements in addition to color that ensure they receive the same amount of information. </p><p>Colorblindness takes different forms (including red-green, blue-yellow, and monochromatic). Use multiple visual cues to communicate important states. Use elements such as strokes, indicators, patterns, texture, or text to describe actions and content.   </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Y1d2YXNBdU9NRzQ/accessibility_color7_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>The text field error state is communicated through multiple cues: title color, text field stroke, and an error message below the field. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SXlnQVZHcUMtVzg/accessibility_color8_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>The text field error state is only communicated with a colored stroke, which would be missed by a user who cannot perceive color.</p></figcaption></figure></div></section></div></div>
+                  <div><p>Use color and contrast to help users see and interpret your app’s content, interact with the right elements, and understand actions. </p><h1>Accessible color palette</h1><p>Choose primary, secondary, and accent colors for your app that support usability. Ensure sufficient color contrast between elements so that users with low vision can see and use your app.</p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Contrast ratios</h1><p>The contrast ratio between a color and its background ranges from 1-21 based on its luminance, or intensity of light emitted, according to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">World Wide Web Consortium (W3C)</a>. </p><p>Contrast ratios represent how different a color is from another color, commonly written as 1:1 or 21:1. The higher the difference between the two numbers in the ratio, the greater the difference in relative luminance between the colors. </p><p>The W3C recommends the following contrast ratios for body text and image text:</p><ul class="lst-kix_c2xsypf5z28r-0 start"><li>Small text should have a contrast ratio of at least 4.5:1 against its background.</li><li>Large text (at 14 pt bold/18 pt regular and up) should have a contrast ratio of at least 3:1 against its background.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 56.1111111111%"><img alt="Correct color contrast" aria-describedby="color-contrast-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3VXY4YWU0N2R3Vms/accessibility_color1_do.png"/></div></div><figcaption id="color-contrast-figure-caption-1"><p class="s-tag-caption do">Do.</p><p>These lines of text follow the color contrast ratio recommendations and are legible against their background colors. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 56.1111111111%"><img alt="Incorrect color contrast" aria-describedby="color-contrast-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3UFZuOTNhUlhyc2M/accessibility_color2_dont.png"/></div></div><figcaption id="color-contrast-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>These lines of text do not meet the color contrast ratio recommendations and are difficult to read against their background colors. </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><p>Icons or other critical elements should also use the above recommended contrast ratios.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 50.2777777778%"><img alt="Correct color contrast for icons" aria-describedby="color-contrast-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3OU93NjBTSkItR2M/accessibility_color3_do.png"/></div></div><figcaption id="color-contrast-figure-caption-3"><p class="s-tag-caption do">Do.</p><p>These icons follow the color contrast ratio recommendations and are legible against their backgrounds.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 50.2777777778%"><img alt="Incorrect color contrast for icons" aria-describedby="color-contrast-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3RlhZM3lsUFRFWVk/accessibility_color4_dont.png"/></div></div><figcaption id="color-contrast-figure-caption-4"><p class="s-tag-caption dont">Don't.</p><p>These icons do not follow the color contrast ratio recommendations and are difficult to discern against their backgrounds. </p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Logos and decorative elements</h1><p>While decorative elements (such as logos or illustrations) don’t have to meet contrast ratios, they should be distinguishable if they possess important functionality.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="Decorative logo" aria-describedby="color-contrast-figure-caption-5" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3amtpNVo5SVhyajQ/accessibility_color5_do.png"/></div></div><figcaption id="color-contrast-figure-caption-5"><p class="s-tag-caption do">Do.</p><p>Decorative logos that are distinguishable don’t have to meet contrast ratios.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="Distorted decorative logo" aria-describedby="color-contrast-figure-caption-6" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3eFFmYVUtMHBSNjA/accessibility_color6_dont.png"/></div></div><figcaption id="color-contrast-figure-caption-6"><p class="s-tag-caption dont">Don't.</p><p>It is not necessary to distort your logo to meet contrast ratios.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Other visual cues</h1><p>For users who are colorblind, or cannot see differences in color, include design elements in addition to color that ensure they receive the same amount of information. </p><p>Colorblindness takes different forms (including red-green, blue-yellow, and monochromatic). Use multiple visual cues to communicate important states. Use elements such as strokes, indicators, patterns, texture, or text to describe actions and content.   </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 51.1111111111%"><img alt="Correct text field example" aria-describedby="color-contrast-figure-caption-7" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Y1d2YXNBdU9NRzQ/accessibility_color7_do.png"/></div></div><figcaption id="color-contrast-figure-caption-7"><p class="s-tag-caption do">Do.</p><p>The text field error state is communicated through multiple cues: title color, text field stroke, and an error message below the field. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 51.1111111111%"><img alt="Incorrect text field example" aria-describedby="color-contrast-figure-caption-8" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3SXlnQVZHcUMtVzg/accessibility_color8_dont.png"/></div></div><figcaption id="color-contrast-figure-caption-8"><p class="s-tag-caption dont">Don't.</p><p>The text field error state is only communicated with a colored stroke, which would be missed by a user who cannot perceive color.</p></figcaption></figure></div></section></div></div>
                 </div>
               </div>
             
               <div id="accessibility-sound-motion" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
                   Sound and motion
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -508,18 +774,18 @@
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><h1>Sound </h1><p>Give visual alternatives to sound, and vice versa. Provide closed captions, a transcript, or another visual alternatives to critical audio elements and sound alerts. </p><p>Allow users to navigate your app using sound by adding descriptive labels to UI elements. When using a screen reader such as TalkBack and navigating by <a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010678000&amp;usg=AFQjCNEijoCgKSwVQhsz9763T9qZ_gip3w" target="_blank">touch exploration</a>, labels are spoken aloud when users touch UI elements with their fingertips.</p><p>The following sounds should be avoided:</p><ul class="lst-kix_8rfeeey1j8st-0 start"><li>Unnecessary sounds that play over a screen reader, such as background music that autoplays when entering a web page. If there is background sound, ensure users can safely pause or stop it.</li><li>Extra sounds added to native elements (screen readers will be able to interpret native elements correctly).</li></ul><div class="modulettes">
-<a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010682000&amp;usg=AFQjCNEMSxp0z9UzKoL1jiMkdv21RVe3cA" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <div><h1>Sound </h1><p>Give visual alternatives to sound, and vice versa. Provide closed captions, a transcript, or another visual alternatives to critical audio elements and sound alerts. </p><p>Allow users to navigate your app using sound by adding descriptive labels to UI elements. When using a screen reader such as TalkBack and navigating by <a href="https://support.google.com/accessibility/android/answer/6006598?hl=en" target="_blank">touch exploration</a>, labels are spoken aloud when users touch UI elements with their fingertips.</p><p>The following sounds should be avoided:</p><ul class="lst-kix_8rfeeey1j8st-0 start"><li>Unnecessary sounds that play over a screen reader, such as background music that autoplays when entering a web page. If there is background sound, ensure users can safely pause or stop it.</li><li>Extra sounds added to native elements (screen readers will be able to interpret native elements correctly).</li></ul><div class="modulettes">
+<a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Labeling User Interface Elements</div>
 <span class="subtitle"> Add audible descriptions to input controls and other elements</span>
 </div>
 </img></a>
-</div><h1>Motion</h1><p>Material design uses motion to guide focus between views, which helps reduce user distraction. Surfaces transform into focal points for the user to follow, and unimportant elements are removed.</p><p>To allow users with motion and vision sensitivities to use interfaces comfortably, adhere to the <a href="../animation/authentic-motion.html">material design motion spec</a>, which supports the following motion guidelines from the W3C:</p><ul class="lst-kix_1yj07pccvkev-0 start"><li>Enable content that moves, scrolls, or blinks automatically to be paused, stopped, or hidden if it lasts more than than five seconds.</li><li>Limit flashing content to three times in a one-second period to meet <a href="https://www.google.com/url?q=http://www.w3.org/TR/WCAG20/%23general-thresholddef&amp;sa=D&amp;ust=1481818010688000&amp;usg=AFQjCNGHM4ziWaKFa1JeCr2O_Zn1p7KLKA" target="_blank">flash and red flash thresholds</a>.</li><li>Avoid <a href="https://www.google.com/url?q=https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176&amp;sa=D&amp;ust=1481818010690000&amp;usg=AFQjCNH3h8LNSO-6Q9cl06MWh9Nx9ocdTg" target="_blank">flashing large central regions of the screen</a>.</li></ul><h1>Timed controls</h1><p>Controls in an app may be set to disappear after a certain amount of time. For example, five seconds after starting a video, playback controls may fade from the screen.</p><p><strong>High-priority controls<br>
+</div><h1>Motion</h1><p>Material design uses motion to guide focus between views, which helps reduce user distraction. Surfaces transform into focal points for the user to follow, and unimportant elements are removed.</p><p>To allow users with motion and vision sensitivities to use interfaces comfortably, adhere to the <a href="../animation/authentic-motion.html">material design motion spec</a>, which supports the following motion guidelines from the W3C:</p><ul class="lst-kix_1yj07pccvkev-0 start"><li>Enable content that moves, scrolls, or blinks automatically to be paused, stopped, or hidden if it lasts more than than five seconds.</li><li>Limit flashing content to three times in a one-second period to meet <a href="http://www.w3.org/TR/WCAG20/#general-thresholddef" target="_blank">flash and red flash thresholds</a>.</li><li>Avoid <a href="https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/G176" target="_blank">flashing large central regions of the screen</a>.</li></ul><h1>Timed controls</h1><p>Controls in an app may be set to disappear after a certain amount of time. For example, five seconds after starting a video, playback controls may fade from the screen.</p><p><strong>High-priority controls<br>
 </strong>Avoid using timers on controls that perform a high-priority functions, as users may not notice these controls if they fade away too quickly. For example, TalkBack reads controls out loud if they are focused on, and placing them on timers may prevent the controls from completing their task. </p><p>For controls that enable other important functions, make sure that the user can turn on the controls again or perform the same function in other ways. Learn more in <a href="accessibility.html#accessibility-hierarchy-focus">hierarchy and focus</a>.</p><div class="modulettes">
-<a class="modulette container default" href="https://www.google.com/url?q=https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index%3D..%252F..%252Findex%236&amp;sa=D&amp;ust=1481818010699000&amp;usg=AFQjCNEbRXnLu995smOan2sqOXJ1dO7YNw" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/default.svg">
+<a class="modulette container default" href="https://codelabs.developers.google.com/codelabs/basic-android-accessibility/index.html?index=..%2F..%2Findex#6" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/default.svg">
 <div class="info">
 <div class="title">Vocalizing text automatically</div>
 <span class="subtitle"> Read about placing text in a live region.</span>
@@ -532,9 +798,15 @@
               <div id="accessibility-style" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
                   Style
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -542,20 +814,26 @@
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Layout</h1><p>Material design’s touch target guidelines enable users who aren’t able to see the screen, or who have motor-dexterity problems, to tap elements in your app. </p><h2>Touch targets</h2><p>Touch targets are the parts of the screen that respond to user input. They extend beyond the visual bounds of an element. For example, an icon may appear to be 24 x 24 dp, but the padding surrounding it comprises the full 48 x 48 dp touch target. </p><p>Touch targets should be at least 48 x 48 dp. A touch target of this size results in a physical size of about 9mm, regardless of screen size. The recommended target size for touchscreen elements is 7-10mm. It may be appropriate to use larger touch targets to accommodate a larger spectrum of users, such as children with developing motor skills.  </p><h2>Touch target spacing</h2><p>In most cases, touch targets should be separated by 8dp of space or more to ensure balanced information density and usability. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ckJvVXNFN3JUbGM/accessibility_layout1.png"/></div><figcaption><p>Avatar: 40dp <br>
+                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Layout</h1><p>Material design’s touch target guidelines enable users who aren’t able to see the screen, or who have motor-dexterity problems, to tap elements in your app. </p><h2>Touch targets</h2><p>Touch targets are the parts of the screen that respond to user input. They extend beyond the visual bounds of an element. For example, an icon may appear to be 24 x 24 dp, but the padding surrounding it comprises the full 48 x 48 dp touch target. </p><p>Touch targets should be at least 48 x 48 dp. A touch target of this size results in a physical size of about 9mm, regardless of screen size. The recommended target size for touchscreen elements is 7-10mm. It may be appropriate to use larger touch targets to accommodate a larger spectrum of users, such as children with developing motor skills.  </p><h2>Touch target spacing</h2><p>In most cases, touch targets should be separated by 8dp of space or more to ensure balanced information density and usability. </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Touch target specs" aria-describedby="style-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3ckJvVXNFN3JUbGM/accessibility_layout1.png"/></div></div><figcaption id="style-figure-caption-1"><p>Avatar: 40dp <br>
 Icon: 24dp<br>
-Touch target on both: 48dp</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bmVCRWJMNVpxNFk/accessibility_layout2.png"/></div><figcaption><p>Examples of touch targets</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3QkcyVEp2RVVvZFU/accessibility_layout3.png"/></div><figcaption><p>Touch target height: 48dp <br>
-Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3empUbUxrRzludkE/accessibility_layout4.png"/></div><figcaption><p>Examples of touch targets and buttons</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h2>Grouping items</h2><p>Keeping related items in proximity to one another is helpful for those who have low vision or may have trouble focusing on the screen. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3bFp4YzdmN2xZZlU/accessibility_layout5_do.png"/></div></figure><div class="text-box"> </div><p class="s-tag-caption do">Do.</p><figcaption><p>The slider value is in close proximity with the slider control. </p></figcaption></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3aThqYktlZEJBWDg/accessibility_layout6_dont.png"/></div></figure><div class="text-box"> </div><p class="s-tag-caption dont">Don't.</p><figcaption><p>The slider value is placed too far away from the control. A user of screen magnification may not be able to view both the slider and the value without panning back and forth. </p></figcaption></div></section></div><h1>Fonts</h1><p>To improve readability, users might increase font size. Mobile devices and browsers include features to allow users to adjust font size system-wide. To enable system font size in an Android app, mark text and their associated containers to be measured in <a href="../layout/units-measurements.html#units-measurements-scaleable-pixels-sp">scaleable pixels (sp)</a>  .</p><p>Make sure to allot enough space for large and foreign language fonts. See <a href="../style/typography.html#typography-line-height">Line Height</a> for information on the recommended sizes of foreign language fonts. </p></div>
+Touch target on both: 48dp</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Examples" aria-describedby="style-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3bmVCRWJMNVpxNFk/accessibility_layout2.png"/></div></div><figcaption id="style-figure-caption-2"><p>Examples of touch targets</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Touch target height" aria-describedby="style-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3QkcyVEp2RVVvZFU/accessibility_layout3.png"/></div></div><figcaption id="style-figure-caption-3"><p>Touch target height: 48dp <br>
+Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Examples" aria-describedby="style-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3empUbUxrRzludkE/accessibility_layout4.png"/></div></div><figcaption id="style-figure-caption-4"><p>Examples of touch targets and buttons</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h2>Grouping items</h2><p>Keeping related items in proximity to one another is helpful for those who have low vision or may have trouble focusing on the screen. </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Correct slider value example" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3bFp4YzdmN2xZZlU/accessibility_layout5_do.png"/></div></div></figure><div class="text-box"> </div><p class="s-tag-caption do">Do.</p><figcaption><p>The slider value is in close proximity with the slider control. </p></figcaption></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="Incorrect slider value" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3aThqYktlZEJBWDg/accessibility_layout6_dont.png"/></div></div></figure><div class="text-box"> </div><p class="s-tag-caption dont">Don't.</p><figcaption><p>The slider value is placed too far away from the control. A user of screen magnification may not be able to view both the slider and the value without panning back and forth. </p></figcaption></div></section></div><h1>Fonts</h1><p>To improve readability, users might increase font size. Mobile devices and browsers include features to allow users to adjust font size system-wide. To enable system font size in an Android app, mark text and their associated containers to be measured in <a href="../layout/units-measurements.html#units-measurements-scaleable-pixels-sp">scaleable pixels (sp)</a>  .</p><p>Make sure to allot enough space for large and foreign language fonts. See <a href="../style/typography.html#typography-line-height">Line Height</a> for information on the recommended sizes of foreign language fonts. </p></div>
                 </div>
               </div>
             
               <div id="accessibility-hierarchy-focus" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
                   Hierarchy and focus
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -564,23 +842,29 @@ Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure c
                 </h2>
                 <div class="article-content">
                   <div><p>Apps should give users feedback and a sense of where they are in the app. Navigation controls should be easy to locate and clearly written. Visual feedback (such as labels, colors, and icons) and touch feedback show users what is available in the UI.</p><p>Navigation should have clear task flows with minimal steps. Focus control, or the ability to control keyboard and reading focus, should be implemented for frequently used tasks.</p><div class="modulettes">
-<a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23focus-nav&amp;sa=D&amp;ust=1481818010784000&amp;usg=AFQjCNGcVcgx9-v7WOQibv-e8P2-XXKniA" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+<a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#focus-nav" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Enabling Focus Navigation</div>
 <span class="subtitle"> Use focus controls for navigation</span>
 </div>
 </img></a>
-</div><h1>Screen readers</h1><p>Screen readers give users multiple ways to navigate a screen, including: </p><ul class="lst-kix_2jhifpytt1is-0 start"><li>Touch interface screen readers allow users to <strong>run their finger over the screen </strong>to hear what is directly underneath. This provides the user a quick sense of an entire interface. Or the user can quickly move to a UI element from muscle memory. In TalkBack, this feature is called “<a href="https://www.google.com/url?q=https://support.google.com/accessibility/android/answer/6006598?hl%3Den&amp;sa=D&amp;ust=1481818010787000&amp;usg=AFQjCNFZvMJlR6Y60uh3CX7UBDebkjBgdA" target="_blank">explore by touch</a>.” To select an item, the user must double tap. </li><li>Users may also <strong>move focus by swiping</strong> backwards or forwards on screen to read pages linearly, from top to bottom. This allows users to hone in on certain elements. In TalkBack, this is called <strong>linear navigation</strong>. </li></ul><p>Users may switch between both “explore by touch” and “linear navigation” modes. Some assistive technologies allow users to navigate between page landmarks, such as headings, when these landmarks use the appropriate semantic markup. </p><p>Hardware or software directional controllers (such as a D-pad, trackball, or keyboard) allow users to jump from selection to selection in a linear fashion. </p><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Hierarchy</h1><p>Place items on the screen according to their relative level of importance. </p><ul class="lst-kix_fk2nb1jptxh6-0 start"><li><strong>Important actions: </strong>Place important actions at the top or bottom of the screen (reachable with shortcuts). </li><li><strong>Related items: </strong>Place related items of a similar hierarchy next to each other.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3d0FBTnJBVVNoeEE/accessibility_hierarchy_1_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>By placing important actions at the top of the screen, they are given more importance in the hierarchy.</p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Sm9uNFR5Yk1PdnM/accessibility_hierarchy_2_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>When important actions are embedded within other content, it’s unclear what the most important elements are on the page.</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h2>Focus order</h2><p>Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. Determine the following focus points and movements:</p><ul class="lst-kix_l1u6j3glpnds-0 start"><li>The order in which elements receive focus</li><li>The way in which elements are grouped </li><li>Where focus moves when the element in focus disappears</li></ul><p>Clarify where the focus exists through a combination of visual indicators and accessibility text. </p><h2>Grouping </h2><p>Group similar items under headings that communicate what the groupings are. These groups organize content spatially. </p><h2>Transitions </h2><p>Focus traversal between screens and tasks should be as continuous as possible.  </p><p>If a task is interrupted and then resumed, place focus on the element that was previously focused. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3akh2UDlIRThUOG8/accessibility_hierarchy_3.png"/></div><figcaption><p>The green circles indicate the order in which onscreen elements should receive focus. </p></figcaption></figure></div></section></div><p> </p></div>
+</div><h1>Screen readers</h1><p>Screen readers give users multiple ways to navigate a screen, including: </p><ul class="lst-kix_2jhifpytt1is-0 start"><li>Touch interface screen readers allow users to <strong>run their finger over the screen </strong>to hear what is directly underneath. This provides the user a quick sense of an entire interface. Or the user can quickly move to a UI element from muscle memory. In TalkBack, this feature is called “<a href="https://support.google.com/accessibility/android/answer/6006598?hl=en" target="_blank">explore by touch</a>.” To select an item, the user must double tap. </li><li>Users may also <strong>move focus by swiping</strong> backwards or forwards on screen to read pages linearly, from top to bottom. This allows users to hone in on certain elements. In TalkBack, this is called <strong>linear navigation</strong>. </li></ul><p>Users may switch between both “explore by touch” and “linear navigation” modes. Some assistive technologies allow users to navigate between page landmarks, such as headings, when these landmarks use the appropriate semantic markup. </p><p>Hardware or software directional controllers (such as a D-pad, trackball, or keyboard) allow users to jump from selection to selection in a linear fashion. </p><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Hierarchy</h1><p>Place items on the screen according to their relative level of importance. </p><ul class="lst-kix_fk2nb1jptxh6-0 start"><li><strong>Important actions: </strong>Place important actions at the top or bottom of the screen (reachable with shortcuts). </li><li><strong>Related items: </strong>Place related items of a similar hierarchy next to each other.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 63.1578947368%"><img alt="Correct hierarchy example" aria-describedby="hierarchy-focus-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3d0FBTnJBVVNoeEE/accessibility_hierarchy_1_do.png"/></div></div><figcaption id="hierarchy-focus-figure-caption-1"><p class="s-tag-caption do">Do.</p><p>By placing important actions at the top of the screen, they are given more importance in the hierarchy.</p></figcaption></figure><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 63.1578947368%"><img alt="Incorrect hierarchy example" aria-describedby="hierarchy-focus-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Sm9uNFR5Yk1PdnM/accessibility_hierarchy_2_dont.png"/></div></div><figcaption id="hierarchy-focus-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>When important actions are embedded within other content, it’s unclear what the most important elements are on the page.</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><h2>Focus order</h2><p>Input focus should follow the order of the visual layout, from the top to the bottom of the screen. It should traverse from the most important to the least important item. Determine the following focus points and movements:</p><ul class="lst-kix_l1u6j3glpnds-0 start"><li>The order in which elements receive focus</li><li>The way in which elements are grouped </li><li>Where focus moves when the element in focus disappears</li></ul><p>Clarify where the focus exists through a combination of visual indicators and accessibility text. </p><h2>Grouping </h2><p>Group similar items under headings that communicate what the groupings are. These groups organize content spatially. </p><h2>Transitions </h2><p>Focus traversal between screens and tasks should be as continuous as possible.  </p><p>If a task is interrupted and then resumed, place focus on the element that was previously focused. </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1522px"><div class="frame " style="padding-top: 103.810775296%"><img alt="Example of focus order" aria-describedby="hierarchy-focus-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3akh2UDlIRThUOG8/accessibility_hierarchy_3.png"/></div></div><figcaption id="hierarchy-focus-figure-caption-3"><p>The green circles indicate the order in which onscreen elements should receive focus. </p></figcaption></figure></div></section></div><p> </p></div>
                 </div>
               </div>
             
               <div id="accessibility-implementation" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
                   Implementation
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -588,27 +872,33 @@ Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure c
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>By using standard platform controls, your app will automatically contain the markup and code needed to work well with a platform’s assistive technology. Adapt your app to meet each platform's accessibility standards and assistive technology (including shortcuts and structure) to give users an efficient experience.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Sl80RzNpM3d3RjA/accessibility_implementation1_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>This screen is using the standard platform dialog. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Zi1Fa3VBSEF1WTQ/accessibility_implementation2_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>This screen is using a non-standard platform dialog to perform a standard dialog task. This implementation would require extra coding and testing to make this non-standard control work well with assistive technology. </p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><p>Test your design with the platform accessibility settings turned on (both during and after implementation). </p><p>Other design considerations:</p><ul class="lst-kix_gcqkuykifz62-0 start"><li><strong>Use scalable text and a spacious layout</strong> to accommodate users who may have large text, color correction, magnification, or other assistive settings turned on.</li><li><strong>Keyboard/mouse interfaces</strong> should have every task and all hover information accessible by keyboard-only.</li><li><strong>Touch interfaces</strong> should allow screen readers and other assistive technology devices to read all parts of your interface. The text read aloud should be both meaningful and helpful. </li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3RjdOaGRNM3lYSHc/accessibility_implementation3_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>This UI has scaled well with magnification and large text.  </p></figcaption></figure><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Z2tQQVlRQjNoVW8/accessibility_implementation4_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>This UI has not scaled well with magnification and large text. Portions of content are overlapping or cut off.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Label visual UI elements </h1><p>Screen-reader users need to know which UI elements are tappable on-screen. To enable screen readers to read the names of components out loud, add the <strong>contentDescription</strong> attribute to components such as buttons, icons, and tabs containing icons that have no visible text. </p><div class="modulettes">
-<a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/guide/topics/ui/accessibility/apps.html%23label-ui&amp;sa=D&amp;ust=1481818010756000&amp;usg=AFQjCNH5Ns3rByzXYss4-XDz58sFR8gNsg" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>By using standard platform controls, your app will automatically contain the markup and code needed to work well with a platform’s assistive technology. Adapt your app to meet each platform's accessibility standards and assistive technology (including shortcuts and structure) to give users an efficient experience.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1000px"><div class="frame " style="padding-top: 177.8%"><img alt="Example of a standard platform dialog" aria-describedby="implementation-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Sl80RzNpM3d3RjA/accessibility_implementation1_do.png"/></div></div><figcaption id="implementation-figure-caption-1"><p class="s-tag-caption do">Do.</p><p>This screen is using the standard platform dialog. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1000px"><div class="frame " style="padding-top: 177.8%"><img alt="Example of a non-standard platform dialog" aria-describedby="implementation-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Zi1Fa3VBSEF1WTQ/accessibility_implementation2_dont.png"/></div></div><figcaption id="implementation-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>This screen is using a non-standard platform dialog to perform a standard dialog task. This implementation would require extra coding and testing to make this non-standard control work well with assistive technology. </p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module"><p>Test your design with the platform accessibility settings turned on (both during and after implementation). </p><p>Other design considerations:</p><ul class="lst-kix_gcqkuykifz62-0 start"><li><strong>Use scalable text and a spacious layout</strong> to accommodate users who may have large text, color correction, magnification, or other assistive settings turned on.</li><li><strong>Keyboard/mouse interfaces</strong> should have every task and all hover information accessible by keyboard-only.</li><li><strong>Touch interfaces</strong> should allow screen readers and other assistive technology devices to read all parts of your interface. The text read aloud should be both meaningful and helpful. </li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 63.1578947368%"><img alt="Example of scalable text" aria-describedby="implementation-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3RjdOaGRNM3lYSHc/accessibility_implementation3_do.png"/></div></div><figcaption id="implementation-figure-caption-3"><p class="s-tag-caption do">Do.</p><p>This UI has scaled well with magnification and large text.  </p></figcaption></figure><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 63.1578947368%"><img alt="Example of poorly scaled text" aria-describedby="implementation-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Z2tQQVlRQjNoVW8/accessibility_implementation4_dont.png"/></div></div><figcaption id="implementation-figure-caption-4"><p class="s-tag-caption dont">Don't.</p><p>This UI has not scaled well with magnification and large text. Portions of content are overlapping or cut off.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Label visual UI elements </h1><p>Screen-reader users need to know which UI elements are tappable on-screen. To enable screen readers to read the names of components out loud, add the <strong>contentDescription</strong> attribute to components such as buttons, icons, and tabs containing icons that have no visible text. </p><div class="modulettes">
+<a class="modulette container android" href="http://developer.android.com/guide/topics/ui/accessibility/apps.html#label-ui" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Labeling UI Elements</div>
 <span class="subtitle"> Use the contentDescription attribute to set labels.</span>
 </div>
 </img></a>
-</div></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3Z0JudE10ZkVpVkU/Accessibility_labeling1.png"/></div><figcaption><p>1. Label the Search icon<br>
-2. Label the Microphone icon </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3TTR3U1cwLUxHTnc/Accessibility_labeling2.png"/></div><figcaption><p>1. Label the Edit icon<br>
-2. Label the Chat icon</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-module col-2"><div class="module"><h1>Help documentation</h1><p>Any features with special accessibility considerations should be included in help documentation. Make help documentation relevant, accessible, and discoverable. As an example, review this guide on how to use a screen reader with <a href="https://www.google.com/url?q=https://support.google.com/drive/answer/6034939?hl%3Den&amp;sa=D&amp;ust=1481818010764000&amp;usg=AFQjCNG73FZbJRcgaQsZ0qD4BJcT-spiKw" target="_blank">Google Drive.</a> </p></div><div class="module">
-</div></section><section class="module-figure col-2"><div class="module"><h1>Testing and research</h1><p>Following these accessibility guidelines will help improve the accessibility of your app,  but does not guarantee a fully accessible experience. It is recommended that you also:</p><ul class="lst-kix_814kni54p86l-0 start"><li>Test your app for full task completion, beginning to end, with various assistive technologies turned on. For example, turn on Explore by Touch in TalkBack and change the speed at which text is spoken out loud. </li><li>Have users with impairments test your app. </li><li>Consider how individual elements should be accessible while also fitting together in a coherent user flow.</li><li>Make sure the major tasks you want your users to complete are possible for everyone.</li></ul><p>Talk to your users, particularly those who use assistive technology, to learn about their needs, what they want out of your app, which tools they use, and how they use them. Become familiar with these tools so you can give them the best experience.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3UU8xY1pWOGo2Z2M/accessibility_implementation5.png"/></div><figcaption><p>People use assistive technology in different ways. </p></figcaption></figure></div></section></div></div>
+</div></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1000px"><div class="frame " style="padding-top: 177.8%"><img alt="" aria-describedby="implementation-figure-caption-5" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Z0JudE10ZkVpVkU/Accessibility_labeling1.png"/></div></div><figcaption id="implementation-figure-caption-5"><p>1. Label the Search icon<br>
+2. Label the Microphone icon </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1000px"><div class="frame " style="padding-top: 177.8%"><img alt="" aria-describedby="implementation-figure-caption-6" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3TTR3U1cwLUxHTnc/Accessibility_labeling2.png"/></div></div><figcaption id="implementation-figure-caption-6"><p>1. Label the Edit icon<br>
+2. Label the Chat icon</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-module col-2"><div class="module"><h1>Help documentation</h1><p>Any features with special accessibility considerations should be included in help documentation. Make help documentation relevant, accessible, and discoverable. As an example, review this guide on how to use a screen reader with <a href="https://support.google.com/drive/answer/6034939?hl=en" target="_blank">Google Drive.</a> </p></div><div class="module">
+</div></section><section class="module-figure col-2"><div class="module"><h1>Testing and research</h1><p>Following these accessibility guidelines will help improve the accessibility of your app,  but does not guarantee a fully accessible experience. It is recommended that you also:</p><ul class="lst-kix_814kni54p86l-0 start"><li>Test your app for full task completion, beginning to end, with various assistive technologies turned on. For example, turn on Explore by Touch in TalkBack and change the speed at which text is spoken out loud. </li><li>Have users with impairments test your app. </li><li>Consider how individual elements should be accessible while also fitting together in a coherent user flow.</li><li>Make sure the major tasks you want your users to complete are possible for everyone.</li></ul><p>Talk to your users, particularly those who use assistive technology, to learn about their needs, what they want out of your app, which tools they use, and how they use them. Become familiar with these tools so you can give them the best experience.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 63.1578947368%"><img alt="" aria-describedby="implementation-figure-caption-7" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3UU8xY1pWOGo2Z2M/accessibility_implementation5.png"/></div></div><figcaption id="implementation-figure-caption-7"><p>People use assistive technology in different ways. </p></figcaption></figure></div></section></div></div>
                 </div>
               </div>
             
               <div id="accessibility-writing" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7">
                 <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
                   Writing
+
                   
+                    
                   
+
                   
+  
+  
+
                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
                     <title>Expand and collapse content</title>
                     <desc>An arrow that points down when collapsed and points up when expanded.</desc>
@@ -616,20 +906,20 @@ Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure c
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p>Clear and helpful <strong>accessibility </strong><strong>text</strong> is one of the primary ways to make UIs more accessible. Users with limited or no eyesight benefit from explicit verbal descriptions. Accessibility text refers to text that is used by screen reader accessibility software, such as TalkBack on Android, VoiceOver on iOS, and JAWS on desktop. Screen readers read all text on screen aloud, including both visible and nonvisible alternative text. </p><p>Accessibility text includes both visible text (including labels for UI elements, text on buttons, links, and forms) and nonvisible descriptions that don’t appear onscreen (such as alternative text for buttons without text labels). Sometimes, an onscreen label may be overridden with accessibility text to provide more information for the user.</p><p>Both visible and nonvisible text should be helpfully descriptive and independently meaningful, as some users navigate by using all the headings or links on a page. Test your app with a screen reader to identify areas that are missing or need better accessibility text.  </p><div class="col-list"><section class="module-module-module col-3"><div class="module"><h1>Be succinct</h1><p>Keep content and accessibility text short and to the point. Screen reader users hear every UI element read aloud. The shorter the text, the faster the screen reader users can navigate it. </p></div><div class="module"><div class="text-box"><p>Switch to heyfromjonathan@gmail.com</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Write clear and short accessibility text. </p></figcaption></div><div class="module"><div class="text-box"><p>Account switcher. Switch to account heyfromjonathan@gmail.com</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write long accessibility text. </p></figcaption></div></section></div><div class="col-list"><section class="module-module-module col-3"><div class="module"><h1>Avoid including control type or state in text</h1><p>Screen readers may automatically announce a control’s type or state through a sound or by speaking the control name before or after the accessibility text. </p></div><div class="module"><div class="text-box"><p>Search</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Use short descriptions.</p></figcaption></div><div class="module"><div class="text-box"><p>Search field</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write the control type.</p></figcaption></div></section><section class="module-module-module col-3"><div class="module"><p><strong>Developer note:</strong> If the control type or state is not being read correctly, the control’s accessibility role may be improperly set or be a custom control. Every element should have an associated accessibility role on a website or be coded to be announced properly. This means a button should be set as a button, and a checkbox as a checkbox, so that the control’s type or state is communicated correctly to the user. If you extend or inherit from a native UI element, you will get the correct role. If not, you can override this information for accessibility on each platform (<a href="https://www.google.com/url?q=https://www.w3.org/WAI/intro/aria&amp;sa=D&amp;ust=1481818010714000&amp;usg=AFQjCNEQMr5NDvLBa9da-xfE9WfQWw4GwA" target="_blank">ARIA</a> for web, <a href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html&amp;sa=D&amp;ust=1481818010715000&amp;usg=AFQjCNG1cz2ubEf3BM2zy2s1vu9CxyYMlA" target="_blank">AccessibilityNodeInfo for Android</a>). </p><p>On Android, set the class name field of the control’s AccessibilityNodeInfo to "android.widget.Button".</p><div class="modulettes">
-<a class="modulette container android" href="https://www.google.com/url?q=https://developer.android.com/guide/topics/ui/accessibility/apps.html%23custom-views&amp;sa=D&amp;ust=1481818010719000&amp;usg=AFQjCNH1OZWUJCKsBHDScGoKuJr4ZCO75g" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+                  <div><p>Clear and helpful <strong>accessibility </strong><strong>text</strong> is one of the primary ways to make UIs more accessible. Users with limited or no eyesight benefit from explicit verbal descriptions. Accessibility text refers to text that is used by screen reader accessibility software, such as TalkBack on Android, VoiceOver on iOS, and JAWS on desktop. Screen readers read all text on screen aloud, including both visible and nonvisible alternative text. </p><p>Accessibility text includes both visible text (including labels for UI elements, text on buttons, links, and forms) and nonvisible descriptions that don’t appear onscreen (such as alternative text for buttons without text labels). Sometimes, an onscreen label may be overridden with accessibility text to provide more information for the user.</p><p>Both visible and nonvisible text should be helpfully descriptive and independently meaningful, as some users navigate by using all the headings or links on a page. Test your app with a screen reader to identify areas that are missing or need better accessibility text.  </p><div class="col-list"><section class="module-module-module col-3"><div class="module"><h1>Be succinct</h1><p>Keep content and accessibility text short and to the point. Screen reader users hear every UI element read aloud. The shorter the text, the faster the screen reader users can navigate it. </p></div><div class="module"><div class="text-box"><p>Switch to heyfromjonathan@gmail.com</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Write clear and short accessibility text. </p></figcaption></div><div class="module"><div class="text-box"><p>Account switcher. Switch to account heyfromjonathan@gmail.com</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write long accessibility text. </p></figcaption></div></section></div><div class="col-list"><section class="module-module-module col-3"><div class="module"><h1>Avoid including control type or state in text</h1><p>Screen readers may automatically announce a control’s type or state through a sound or by speaking the control name before or after the accessibility text. </p></div><div class="module"><div class="text-box"><p>Search</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Use short descriptions.</p></figcaption></div><div class="module"><div class="text-box"><p>Search field</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write the control type.</p></figcaption></div></section><section class="module-module-module col-3"><div class="module"><p><strong>Developer note:</strong> If the control type or state is not being read correctly, the control’s accessibility role may be improperly set or be a custom control. Every element should have an associated accessibility role on a website or be coded to be announced properly. This means a button should be set as a button, and a checkbox as a checkbox, so that the control’s type or state is communicated correctly to the user. If you extend or inherit from a native UI element, you will get the correct role. If not, you can override this information for accessibility on each platform (<a href="https://www.w3.org/WAI/intro/aria" target="_blank">ARIA</a> for web, <a href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html" target="_blank">AccessibilityNodeInfo for Android</a>). </p><p>On Android, set the class name field of the control’s AccessibilityNodeInfo to "android.widget.Button".</p><div class="modulettes">
+<a class="modulette container android" href="https://developer.android.com/guide/topics/ui/accessibility/apps.html#custom-views" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Building Accessible Custom Views</div>
 <span class="subtitle"></span>
 </div>
 </img></a>
-</div></div><div class="module"><div class="text-box"><p>Download over Wi-Fi only</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Use short descriptions.</p></figcaption></div><div class="module"><div class="text-box"><p>Download over Wi-Fi is selected</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write out the state.</p></figcaption></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Indicate what an element does</h1><p>Use action verbs to indicate what an element or link does, not what an element looks like, so a visually impaired person can understand. Link text should:</p><ul class="lst-kix_9qtqh176w4cq-0 start"><li>Specify the task that tapping the link will perform</li><li>Avoid vague descriptions, such as “click here” </li></ul><p>Ensure an element has the same description everywhere it’s used. </p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3ZUwwLUx0eThNeEU/accessibility_writing_edit_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>The description read aloud indicates the action represented by the icon. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3TUZPU2JrUU1McGM/accessibility_writing_edit_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>Describing what the icon looks like doesn’t make it clear what the action does. </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3eEJHejlLUmpMQlE/accessibility_writing_menu_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>Accessible text for a navigation menu could be “Show/hide navigation menu” (preferred) or “Show/Hide main menu” (acceptable).</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3M2FjbXRrNWJPRU0/accessibility_writing_menu_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>When read aloud, the text “side drawer” doesn’t indicate what action will occur.</p></figcaption></figure></div></section><section class="module-module-module col-3"><div class="module"><p><strong>Elements with state changes</strong></p><p>For icons that toggle between values or states, announce the icon according to how it is presented to the user.</p><ul class="lst-kix_dsyd8ql7t187-0 start"><li>If the icon is a <strong>property</strong> of an item, make it a checkbox so that screen readers verbalize the current state, such as “on” or “off.”</li><li>If the icon is an <strong>action</strong>, write the text label to specify the action that occurs if the icon is selected, such as “Add to wishlist.”</li></ul><p>How elements should be used affects how they are displayed. For example, if a star icon represents the action of adding something to a wishlist, the app should verbalize  “Add to wishlist” or “Remove from wishlist.”</p></div><div class="module">
+</div></div><div class="module"><div class="text-box"><p>Download over Wi-Fi only</p></div><p class="s-tag-caption do">Do.</p><figcaption><p>Use short descriptions.</p></figcaption></div><div class="module"><div class="text-box"><p>Download over Wi-Fi is selected</p></div><p class="s-tag-caption dont">Don't.</p><figcaption><p>Don’t write out the state.</p></figcaption></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Indicate what an element does</h1><p>Use action verbs to indicate what an element or link does, not what an element looks like, so a visually impaired person can understand. Link text should:</p><ul class="lst-kix_9qtqh176w4cq-0 start"><li>Specify the task that tapping the link will perform</li><li>Avoid vague descriptions, such as “click here” </li></ul><p>Ensure an element has the same description everywhere it’s used. </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Action verb example" aria-describedby="writing-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3ZUwwLUx0eThNeEU/accessibility_writing_edit_do.png"/></div></div><figcaption id="writing-figure-caption-1"><p class="s-tag-caption do">Do.</p><p>The description read aloud indicates the action represented by the icon. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Incorrect example of a description" aria-describedby="writing-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3TUZPU2JrUU1McGM/accessibility_writing_edit_dont.png"/></div></div><figcaption id="writing-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>Describing what the icon looks like doesn’t make it clear what the action does. </p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Correct example of accessible text" aria-describedby="writing-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3eEJHejlLUmpMQlE/accessibility_writing_menu_do.png"/></div></div><figcaption id="writing-figure-caption-3"><p class="s-tag-caption do">Do.</p><p>Accessible text for a navigation menu could be “Show/hide navigation menu” (preferred) or “Show/Hide main menu” (acceptable).</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Incorrect example of accessible text" aria-describedby="writing-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3M2FjbXRrNWJPRU0/accessibility_writing_menu_dont.png"/></div></div><figcaption id="writing-figure-caption-4"><p class="s-tag-caption dont">Don't.</p><p>When read aloud, the text “side drawer” doesn’t indicate what action will occur.</p></figcaption></figure></div></section><section class="module-module-module col-3"><div class="module"><p><strong>Elements with state changes</strong></p><p>For icons that toggle between values or states, announce the icon according to how it is presented to the user.</p><ul class="lst-kix_dsyd8ql7t187-0 start"><li>If the icon is a <strong>property</strong> of an item, make it a checkbox so that screen readers verbalize the current state, such as “on” or “off.”</li><li>If the icon is an <strong>action</strong>, write the text label to specify the action that occurs if the icon is selected, such as “Add to wishlist.”</li></ul><p>How elements should be used affects how they are displayed. For example, if a star icon represents the action of adding something to a wishlist, the app should verbalize  “Add to wishlist” or “Remove from wishlist.”</p></div><div class="module">
 </div><div class="module">
-</div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Don’t mention the exact gesture or interaction</h1><p>Don’t tell users how to physically interact with a control, as they may be navigating with a keyboard or other device, not with their fingers or a mouse. Accessibility software will describe the correct interaction for the user.</p></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3amZvbVdER1FMaGc/accessibility_writing_voicesearch_do.png"/></div><figcaption><p class="s-tag-caption do">Do.</p><p>The command “voice search” describes the user task (search) paired with the input method (voice).</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_10/assets/0Bzhp5Z4wHba3SHhtcE9wMkJTcGs/accessibility_writing_voicesearch_dont.png"/></div><figcaption><p class="s-tag-caption dont">Don't.</p><p>The command “Tap” is inaccurate as it is not the only way to activate this control (it could be selected via a keyboard press, switch device, or braille display). As the main user task in this example is to search, that action should be mentioned instead of “speak”.</p></figcaption></figure></div></section></div><h1>Confirm actions</h1><p>Use dialogs, toasts, or snackbars (Android) to confirm or acknowledge user actions that are destructive (like “Delete” or “Remove”) or difficult to undo. </p><p>For actions that are confirmed through visual means, such as a grid rearranging itself when an item is deleted, a toast is not necessary. In these cases, add accessibility text to provide acknowledgement.</p><h1>Provide hint speech </h1><p>Hint speech provides extra information for actions that aren't clear. For example, Android's “double-tap to select” feature prompts the user to tap twice when landing on an item without taking action. Android TalkBack will also announce any custom actions associated with an element. Use hint speech sparingly and only for complex UI. </p><div class="modulettes">
-<a class="modulette container android" href="https://www.google.com/url?q=http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html%23addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)&amp;sa=D&amp;ust=1481818010766000&amp;usg=AFQjCNE_U-MDUDvIwn8hceWHW36IGykFbQ" target="_blank">
-<img alt="" class="icon callout-icon" src="../static/images/callouts/android.svg">
+</div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Don’t mention the exact gesture or interaction</h1><p>Don’t tell users how to physically interact with a control, as they may be navigating with a keyboard or other device, not with their fingers or a mouse. Accessibility software will describe the correct interaction for the user.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Correct example of a command." aria-describedby="writing-figure-caption-5" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3amZvbVdER1FMaGc/accessibility_writing_voicesearch_do.png"/></div></div><figcaption id="writing-figure-caption-5"><p class="s-tag-caption do">Do.</p><p>The command “voice search” describes the user task (search) paired with the input method (voice).</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 33.3333333333%"><img alt="Incorrect example of a command" aria-describedby="writing-figure-caption-6" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3SHhtcE9wMkJTcGs/accessibility_writing_voicesearch_dont.png"/></div></div><figcaption id="writing-figure-caption-6"><p class="s-tag-caption dont">Don't.</p><p>The command “Tap” is inaccurate as it is not the only way to activate this control (it could be selected via a keyboard press, switch device, or braille display). As the main user task in this example is to search, that action should be mentioned instead of “speak”.</p></figcaption></figure></div></section></div><h1>Confirm actions</h1><p>Use dialogs, toasts, or snackbars (Android) to confirm or acknowledge user actions that are destructive (like “Delete” or “Remove”) or difficult to undo. </p><p>For actions that are confirmed through visual means, such as a grid rearranging itself when an item is deleted, a toast is not necessary. In these cases, add accessibility text to provide acknowledgement.</p><h1>Provide hint speech </h1><p>Hint speech provides extra information for actions that aren't clear. For example, Android's “double-tap to select” feature prompts the user to tap twice when landing on an item without taking action. Android TalkBack will also announce any custom actions associated with an element. Use hint speech sparingly and only for complex UI. </p><div class="modulettes">
+<a class="modulette container android" href="http://developer.android.com/reference/android/view/accessibility/AccessibilityNodeInfo.html#addAction(android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction)" target="_blank">
+<img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Android Custom Actions</div>
 <span class="subtitle"></span>
@@ -644,51 +934,55 @@ Button height: 36dp</p></figcaption></figure></div><div class="figure"><figure c
 
         </div>
         
-      </section>
-    </div>
+      
+      
+    </section>
+  </div>
+
 
     
-      <footer>
-        <div class="footer-grid">
-          
-          <div class="footer-L section-material-design color-cyan">&nbsp;</div>
-          <div class="footer-grid-L section-material-design color-cyan">
-            
-            <a class="footer-text" href="../growth-communications/gesture-education.html">
-              <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
-              <span class="direction">Previous</span><span class="screen-reader">:</span>
-              <div>
-                Gesture education
-              </div>
-            </a>
-            
-          </div>
 
+  
+    <footer>
+      <div class="footer-grid">
+        
+        <div class="footer-L section-material-design color-cyan">&nbsp;</div>
+        <div class="footer-grid-L section-material-design color-cyan">
           
-          <div class="footer-R section-what-is-material color-pink">&nbsp;</div>
-          <div class="footer-grid-R section-what-is-material color-pink">
-            
-            <a class="footer-text" href="bidirectionality.html">
-              <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
-              <span class="direction">Next</span><span class="screen-reader">:</span>
-              <div>
-                Bidirectionality
-              </div>
-            </a>
-            
-          </div>
-
+          <a class="footer-text" href="../growth-communications/gesture-education.html">
+            <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
+            <span class="direction">Previous</span><span class="screen-reader">:</span>
+            <div>
+              Gesture education
+            </div>
+          </a>
+          
         </div>
-      </footer>
-    
 
-    <script src="https://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
-    <script src="../static/js/main.min.js"></script>
+        
+        <div class="footer-R section-what-is-material color-pink">&nbsp;</div>
+        <div class="footer-grid-R section-what-is-material color-pink">
+          
+          <a class="footer-text" href="bidirectionality.html">
+            <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
+            <span class="direction">Next</span><span class="screen-reader">:</span>
+            <div>
+              Bidirectionality
+            </div>
+          </a>
+          
+        </div>
+
+      </div>
+    </footer>
+  
+
+
     
-    
-    
-    <script src="https://www.gstatic.com/feedback/api.js"></script>
-    
+  
+  
+  
+  <script src="../static/default/js/main.min.js"></script><script src="https://www.gstatic.com/feedback/api.js"></script>
 
   </body>
 </html>
