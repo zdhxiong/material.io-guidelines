@@ -5,17 +5,15 @@
     <meta charset="utf-8">
 <link href="../static/default/css/main.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400|Material+Icons" rel="stylesheet">
-<meta name="viewport" content="initial-scale=1, width=device-width"><title>Swipe to refresh - Patterns - Material design guidelines</title>
-<meta itemprop="name" content="Swipe to refresh - Patterns - Material design guidelines">
-<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Swipe to refresh - Patterns - Material design guidelines">
+<meta name="viewport" content="initial-scale=1, width=device-width"><title>Swipe to refresh - Patterns - Material Design</title>
+<meta itemprop="name" content="Swipe to refresh - Patterns - Material Design"><meta property="og:type" content="article">
+<meta property="og:title" content="Swipe to refresh - Patterns - Material Design">
 <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:title" content="Swipe to refresh - Patterns">
-<meta property="og:site_name" content="Material design guidelines">
+<meta property="og:title" content="Swipe to refresh - Patterns - Material Design">
+<meta property="og:site_name" content="Material Design">
 <meta property="og:image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-<meta property="article:section" content="Swipe to refresh - Patterns">
+<meta property="article:section" content="Swipe to refresh - Patterns - Material Design">
 <meta name="theme-color" content="#FB8C00">
 <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
 <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
@@ -30,10 +28,10 @@
     
   </head>
 
-  <body class="site-material_ext_publish section-material-design noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
+  <body class="site-material_ext_publish section-material-design  noninitial-chapter color-orange qp-ui" data-qp-ui="{ 'Mask': {} }">
     
 <!-- Google Tag Manager -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -101,11 +99,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           
 
           <dl>
-            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
             <dd>
               
                 <a  href="../material-design/introduction.html">
-                  Introduction 
+                  Introduction
                   
                   </a>
               
@@ -153,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="../motion/movement.html">
-                   Movement
+                  Movement
                   
                   </a>
               
@@ -435,7 +433,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="gestures.html">
-                  Gestures 
+                  Gestures
                   
                   </a>
               
@@ -474,6 +472,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   
                   </a>
               
+                <a  href="offline-states.html">
+                  Offline states
+                  
+                  </a>
+              
                 <a  href="permissions.html">
                   Permissions
                   
@@ -485,17 +488,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="search.html">
-                  Search 
+                  Search
                   
                   </a>
               
                 <a  href="selection.html">
-                  Selection 
+                  Selection
                   
                   </a>
               
                 <a  href="settings.html">
-                  Settings 
+                  Settings
                   
                   </a>
               
@@ -684,8 +687,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="chapter-content">
 
           <div class="article-content chapter-intro">
-            <div><h1>Swipe to refresh manually refreshes screen content with a user action or gesture. </h1><div class="col-list"><section class="module-module-figure col-3"><div class="module"><p>There are two methods for updating content in an app: </p><ul class="lst-kix_8pwwe96a23b7-0 start"><li>The preferred method is to automatically update content using <strong><a href="http://developer.android.com/training/sync-adapters/index.html" target="_blank">sync</a></strong>, which keeps app content automatically updated.</li><li><strong>Swipe to refresh</strong> is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections that are sorted by recent content. </li></ul><p>Manual refreshing can supplement syncing. It maintains the current scroll position, as when checking for new mail in Gmail.</p></div><div class="module"><h3><strong>Icon</strong></h3><p>The refresh indicator is represented by a <strong>circular spinner</strong><strong>, </strong>an icon with a curved arrow that spins in a circular motion.</p><h3><strong>Position</strong></h3><ul class="lst-kix_r9d565ze57w6-0 start"><li>The <strong>swipe to refresh gesture</strong> is available at the top or bottom of content collections.</li><li>The <strong>refresh indicator’s</strong> resting position is centered horizontally relative to refreshing content.</li></ul><h3><strong>Threshold</strong></h3><p>The refresh indicator must pass a threshold before an app refreshes, as indicated by the circular spinner’s opacity, speed, and translation changes.<br>
-</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 3000px"><div class="frame " style="padding-top: 100.0%"><img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B7WCemMG6e0VS2kzSmZwNnNKQVk/patterns_swipe_to_refresh.png"/></div></div></figure></div></section></div></div>
+            <div><h1>Swipe to refresh manually refreshes screen content with a user action or gesture. </h1><div class="col-list"><section class="module-module-figure col-3 h3-spacing"><div class="module"><p>There are two methods for updating content in an app: </p><ul class="lst-kix_8pwwe96a23b7-0 start"><li>The preferred method is to automatically update content using <strong><a href="http://developer.android.com/training/sync-adapters/index.html" target="_blank">sync</a></strong>, which keeps app content automatically updated</li><li><strong>Swipe to refresh</strong> is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections that are sorted by recent content</li></ul><p>Manual refreshing can supplement syncing. It maintains the current scroll position, as when checking for new mail in Gmail.</p></div><div class="module"><h3>Icon</h3><p>The refresh indicator is represented by a <strong>circular spinner</strong><strong>, </strong>an icon with a curved arrow that spins in a circular motion.</p><h3>Position</h3><ul class="lst-kix_r9d565ze57w6-0 start"><li>The <strong>swipe to refresh gesture</strong> is available at the top or bottom of content collections</li><li>The <strong>refresh indicator’s</strong> resting position is centered horizontally relative to refreshing content</li></ul><h3>Threshold</h3><p>The refresh indicator must pass a threshold before an app refreshes, as indicated by the circular spinner’s opacity, speed, and translation changes.<br>
+</p></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 3000px">
+<div class="frame" style="padding-top: 100.0%">
+<img alt="" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B7WCemMG6e0VS2kzSmZwNnNKQVk/patterns-swipe-to-refresh.png">
+</img></div>
+</div>
+</figure>
+</div></section></div></div>
           </div>
 
           
@@ -723,26 +734,61 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p>Swipe to refresh is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections where the most recent content appears (Index 0). </p><p>It’s best to use this gesture with dynamic content that has frequent updates surfacing from a consistent location, where users have a high probability of seeing new content after initiating the gesture. </p><div class="col-list"><section class="module-figure-module col-3"><div class="module"><h1>Refresh indicator</h1><p>The refresh indicator appears only in conjunction with a refresh gesture or action. Syncing does not display a refresh indicator. </p><p><strong>Effects</strong></p><p>Changes may not be immediately obvious to users when this gesture is used in views that can change significantly upon refresh. For example, the refresh may non-sequentially delete, reorder, modify, and insert items or change only off-screen items.</p><div class="modulettes">
+                  <div><p>Swipe to refresh is a <a href="gestures.html#gestures-gestures">swipe gesture</a> available at the beginning of lists, grid lists, and card collections where the most recent content appears (Index 0). </p><p>It’s best to use this gesture with dynamic content that has frequent updates surfacing from a consistent location, where users have a high probability of seeing new content after initiating the gesture. </p><div class="col-list"><section class="module-figure-module col-3 h1-spacing"><div class="module"><h1>Refresh indicator</h1><p>The refresh indicator appears only in conjunction with a refresh gesture or action. Syncing does not display a refresh indicator. </p><p><strong>Effects</strong></p><p>Changes may not be immediately obvious to users when this gesture is used in views that can change significantly upon refresh. For example, the refresh may non-sequentially delete, reorder, modify, and insert items or change only off-screen items.</p><p><div class="modulettes">
 <a class="modulette container android" href="https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank">
 <img alt="" class="icon callout-icon" src="../static/spec/images/callouts/android.svg">
 <div class="info">
 <div class="title">Swipe to refresh layout</div>
-<span class="subtitle">Refresh the contents of a view via a vertical swipe gesture</span>
 </div>
 </img></a>
-</div></div><div class="figure"><figure class="s-tag-media">
+</div>Refresh the contents of a view via a vertical swipe gesture</p></div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="usage-figure-caption-1" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsRWlsOUFOeG96RnM/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsRjJWeHdCeEFVZWM/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="usage-figure-caption-0" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B6Okdz75tqQsRWlsOUFOeG96RnM/components-progressactivity-behavior-loading-swipedown-noload-xhdpi-005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B6Okdz75tqQsRjJWeHdCeEFVZWM/components-progressactivity-behavior-loading-swipedown-noload-xhdpi-005.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="usage-figure-caption-1"><p>Animation showing swipe to refresh</p></figcaption></figure></div><div class="module">
-</div></section><section class="module-figure-figure col-3"><div class="module"><p>Swipe to refresh should not be used in the following situations:</p><ul class="lst-kix_ts8d536vx62i-0 start"><li>Navigation drawers</li><li>Home screen widgets</li><li>Pannable content</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="usage-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsdFdYQUZ2MXVUVFk/patterns_swipetorefresh_dont1.png"/></div></div><figcaption id="usage-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>Navigation drawers (if present in an app) contain navigation destinations, not dynamic content.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="usage-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3c3JOSHh4T3VCVG8/patterns_swipetorefresh_dont2.png"/></div></div><figcaption id="usage-figure-caption-3"><p class="s-tag-caption dont">Don't.</p><p>Home screen widgets should update content automatically.</p></figcaption></figure></div></section><section class="module-figure-module col-3"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="usage-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Ym1jbnBHMVJWdDg/patterns_swipetorefresh_dont3.png"/></div></div><figcaption id="usage-figure-caption-4"><p class="s-tag-caption dont">Don't.</p><p>Pannable content, like in maps, have no primary direction or content origin from which users can presume the swipe to refresh gesture will originate.</p></figcaption></figure></div><div class="module">
+<figcaption id="usage-figure-caption-0"><p>Animation showing swipe to refresh</p></figcaption>
+</figure>
+</div><div class="module">
+</div></section><section class="module-figure-figure col-3"><div class="module"><p>Swipe to refresh should not be used in the following situations:</p><ul class="lst-kix_ts8d536vx62i-0 start"><li>Navigation drawers</li><li>Home screen widgets</li><li>Pannable content</li></ul></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="usage-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B6Okdz75tqQsdFdYQUZ2MXVUVFk/patterns-swipetorefresh-dont1.png">
+</img></div>
+</div>
+<figcaption id="usage-figure-caption-1">
+<p class="s-tag-caption dont">Don’t.</p>
+<p>Navigation drawers (if present in an app) contain navigation destinations, not dynamic content.</p></figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="usage-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3c3JOSHh4T3VCVG8/patterns-swipetorefresh-dont2.png">
+</img></div>
+</div>
+<figcaption id="usage-figure-caption-2">
+<p class="s-tag-caption dont">Don’t.</p>
+<p>Home screen widgets should update content automatically.</p></figcaption>
+</figure>
+</div></section><section class="module-figure-module col-3"><div class="module">
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="usage-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3Ym1jbnBHMVJWdDg/patterns-swipetorefresh-dont3.png">
+</img></div>
+</div>
+<figcaption id="usage-figure-caption-3">
+<p class="s-tag-caption dont">Don’t.</p>
+<p>Pannable content, like in maps, have no primary direction or content origin from which users can presume the swipe to refresh gesture will originate.</p></figcaption>
+</figure>
+</div><div class="module">
 </div></section></div></div>
                 </div>
               </div>
@@ -766,8 +812,63 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><h1>Gesture positioning</h1><p>Typically, this gesture is available at the top of content collections, but it can also be at the bottom (for example, in chat applications). </p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Refresh indicator resting position</h1><p>The refresh indicator, when resting, is centered horizontally relative to refreshing content.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="" aria-describedby="positioning-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrV0JMQnhpVDBYTzA/patterns_swipetorefresh_position1.png"/></div></div><figcaption id="positioning-figure-caption-1"><p class="s-tag-caption do">Do.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 100.0%"><img alt="" aria-describedby="positioning-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTranpSOE5hdnV6TkE/patterns_swipetorefresh_position2.png"/></div></div><figcaption id="positioning-figure-caption-2"><p class="s-tag-caption dont">Don't.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module">
-</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 47.3684210526%"><img alt="" aria-describedby="positioning-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrcWxwNDlyTDlLWnc/patterns_swipetorefresh_position3.png"/></div></div><figcaption id="positioning-figure-caption-3"><p class="s-tag-caption dont">Don't.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Refresh indicator  active position</h1><p>The refresh indicator is located near the top of refreshing content.</p><p>Its exact vertical resting position can be adjusted to promote visual harmony with the underlying layout. For example, the indicator may fall on a material edge or grid line, as long as it’s located near the top of the refreshing content.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="positioning-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrYVB4M2dGZlpDVkU/patterns_swipetorefresh_position4.png"/></div></div><figcaption id="positioning-figure-caption-4"><p class="s-tag-caption do">Do.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="positioning-figure-caption-5" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrUGtmaW5hT1lpTnc/patterns_swipetorefresh_position5.png"/></div></div><figcaption id="positioning-figure-caption-5"><p class="s-tag-caption dont">Don't.</p></figcaption></figure></div></section></div></div>
+                  <div><h1>Gesture positioning</h1><p>Typically, this gesture is available at the top of content collections, but it can also be at the bottom (for example, in chat applications). </p><div class="col-list"><section class="module-figure-figure col-3 h1-spacing"><div class="module"><h1>Refresh indicator resting position</h1><p>The refresh indicator, when resting, is centered horizontally relative to refreshing content.</p></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 100.0%">
+<img alt="" aria-describedby="positioning-figure-caption-0" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrV0JMQnhpVDBYTzA/patterns-swipetorefresh-position1.png">
+</img></div>
+</div>
+<figcaption id="positioning-figure-caption-0">
+<p class="s-tag-caption do">Do.</p>
+</figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 100.0%">
+<img alt="" aria-describedby="positioning-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTranpSOE5hdnV6TkE/patterns-swipetorefresh-position2.png">
+</img></div>
+</div>
+<figcaption id="positioning-figure-caption-1">
+<p class="s-tag-caption dont">Don’t.</p>
+</figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module">
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="frame" style="padding-top: 47.3684210526%">
+<img alt="" aria-describedby="positioning-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrcWxwNDlyTDlLWnc/patterns-swipetorefresh-position3.png">
+</img></div>
+</div>
+<figcaption id="positioning-figure-caption-2">
+<p class="s-tag-caption dont">Don’t.</p>
+</figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="module-figure-figure col-3 h1-spacing"><div class="module"><h1>Refresh indicator  active position</h1><p>The refresh indicator is located near the top of refreshing content.</p><p>Its exact vertical resting position can be adjusted to promote visual harmony with the underlying layout. For example, the indicator may fall on a material edge or grid line, as long as it’s located near the top of the refreshing content.</p></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="positioning-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrYVB4M2dGZlpDVkU/patterns-swipetorefresh-position4.png">
+</img></div>
+</div>
+<figcaption id="positioning-figure-caption-3">
+<p class="s-tag-caption do">Do.</p>
+</figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="positioning-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrUGtmaW5hT1lpTnc/patterns-swipetorefresh-position5.png">
+</img></div>
+</div>
+<figcaption id="positioning-figure-caption-4">
+<p class="s-tag-caption dont">Don’t.</p>
+</figcaption>
+</figure>
+</div></section></div></div>
                 </div>
               </div>
             
@@ -790,61 +891,83 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p><strong> </strong></p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>As the refresh indicator translates and/or scales into view, the circular spinner fades in while rotating.</p><p>The refresh indicator remains visible until the refresh activity completes and any new content is visible, or the user navigates away from the refreshing content.</p></div><div class="figure"><figure class="s-tag-media">
+                  <div><p><strong> </strong></p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><p>As the refresh indicator translates and/or scales into view, the circular spinner fades in while rotating.</p><p>The refresh indicator remains visible until the refresh activity completes and any new content is visible, or the user navigates away from the refreshing content.</p></div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrUlM4NHN1ei1DS2s/patterns-swipetorefresh-behavior_do_xhdpi_009.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrNHl6aE5pcFpMb1U/patterns-swipetorefresh-behavior_do_xhdpi_009.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="behavior-figure-caption-0" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrUlM4NHN1ei1DS2s/patterns-swipetorefresh-behavior-do-xhdpi-009.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrNHl6aE5pcFpMb1U/patterns-swipetorefresh-behavior-do-xhdpi-009.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-1"><p class="s-tag-caption do">Do.</p><p>Keeping the refresh indicator in view until the activity is completed provides feedback on the status of the refresh activity.</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media">
+<figcaption id="behavior-figure-caption-0">
+<p class="s-tag-caption do">Do.</p>
+<p>Keeping the refresh indicator in view until the activity is completed provides feedback on the status of the refresh activity.</p></figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrdnhnbmZrT01OYTQ/patterns-swipetorefresh-behavior_dont_xhdpi_009.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrMDVIdlRWZlFLTWs/patterns-swipetorefresh-behavior_dont_xhdpi_009.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="behavior-figure-caption-1" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrdnhnbmZrT01OYTQ/patterns-swipetorefresh-behavior-dont-xhdpi-009.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrMDVIdlRWZlFLTWs/patterns-swipetorefresh-behavior-dont-xhdpi-009.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-2"><p class="s-tag-caption dont">Don't.</p><p>Scrolling the refresh indicator off-screen hides the status of the refresh activity and may imply that the refresh activity is associated with a specific component within the view, such as a card, instead of the entire view.</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Refresh indicator transitions</h1><p>When another surface is in front of the material with refreshing content, the refresh indicator translates from underneath that surface and is clipped until it is fully visible.</p><p>The refresh indicator increases in size as it translates when: </p><ul class="lst-kix_t6itoy50lxht-0 start"><li>The refreshing material is at a higher elevation than all other surfaces</li><li>A content refresh is initiated via an app bar or overflow menu action</li></ul></div><div class="figure"><figure class="s-tag-media">
+<figcaption id="behavior-figure-caption-1">
+<p class="s-tag-caption dont">Don’t.</p>
+<p>Scrolling the refresh indicator off-screen hides the status of the refresh activity and may imply that the refresh activity is associated with a specific component within the view, such as a card, instead of the entire view.</p></figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="module-figure col-2 h1-spacing"><div class="module"><h1>Refresh indicator transitions</h1><p>When another surface is in front of the material with refreshing content, the refresh indicator translates from underneath that surface and is clipped until it is fully visible.</p><p>The refresh indicator increases in size as it translates when: </p><ul class="lst-kix_t6itoy50lxht-0 start"><li>The refreshing material is at a higher elevation than all other surfaces</li><li>A content refresh is initiated via an app bar or overflow menu action</li></ul></div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 1520px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 47.3684210526%">
-<video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrZ3lvZEdyajBvQ1U/patterns-swipetorefresh-zspace_refresh_xhdpi_007.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrYTVFaG5tT21qVXM/patterns-swipetorefresh-zspace_refresh_xhdpi_007.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 47.3684210526%">
+<video aria-describedby="behavior-figure-caption-2" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrZ3lvZEdyajBvQ1U/patterns-swipetorefresh-zspace-refresh-xhdpi-007.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrYTVFaG5tT21qVXM/patterns-swipetorefresh-zspace-refresh-xhdpi-007.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-3"><p>Refreshing content that is at a higher elevation than other surfaces</p></figcaption></figure></div></section></div><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure"><figure class="s-tag-media">
+<figcaption id="behavior-figure-caption-2"><p>Refreshing content that is at a higher elevation than other surfaces</p></figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="figure-figure-figure col-3"><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrZmlMTkpFMjVDd0E/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrLTZsZGFybU9GVVk/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="behavior-figure-caption-3" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrZmlMTkpFMjVDd0E/patterns-swipetorefresh-coplanar-refresh-xhdpi-008.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrLTZsZGFybU9GVVk/patterns-swipetorefresh-coplanar-refresh-xhdpi-008.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-4"><p>Refreshing content that is coplanar with another surface</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media">
+<figcaption id="behavior-figure-caption-3"><p>Refreshing content that is coplanar with another surface</p></figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTraWZGdTRrcmMwaFU/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrVlNWZUJrQzFVeE0/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="behavior-figure-caption-4" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTraWZGdTRrcmMwaFU/patterns-swipetorefresh-zspace-refresh-mobile-xhdpi-002.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrVlNWZUJrQzFVeE0/patterns-swipetorefresh-zspace-refresh-mobile-xhdpi-002.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-5"><p>Refreshing content that is below another surface in z-space</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media">
+<figcaption id="behavior-figure-caption-4"><p>Refreshing content that is below another surface in z-space</p></figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
 <div class="media" style="max-width: 720px">
-<div class="qp-ui frame " data-qp-ui="{ 'VideoPlayer': {} }" style="padding-top: 177.777777778%">
-<video aria-describedby="behavior-figure-caption-6" controls="" loop="" preload="metadata">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTraTRNaUFjdEk3X2M/patterns_swipetorefresh-appbar_refresh_xhdpi_007.webm" type="video/webm">
-<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B1PhAWhtrRTrc0RKNjNxa0pmX28/patterns_swipetorefresh-appbar_refresh_xhdpi_007.mp4" type="video/mp4">
+<div class="qp-ui frame" data-qp-ui="{ 'VideoPlayer': {} }" role="button" style="padding-top: 177.777777778%">
+<video aria-describedby="behavior-figure-caption-5" controls="" loop="" preload="auto">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTraTRNaUFjdEk3X2M/patterns-swipetorefresh-appbar-refresh-xhdpi-007.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0B1PhAWhtrRTrc0RKNjNxa0pmX28/patterns-swipetorefresh-appbar-refresh-xhdpi-007.mp4" type="video/mp4">
 </source></source></video>
 </div>
 </div>
-<figcaption id="behavior-figure-caption-6"><p>Refreshing content via app bar action</p></figcaption></figure></div></section></div><div class="col-list"><section class="module col-1"><div class="module"><h1>Threshold requirements</h1><p>To ensure intentional usage of the swipe to refresh gesture, the refresh indicator must pass a threshold before the app will refresh. This threshold is indicated by a number of cues: </p><ul class="lst-kix_b56pwaaxef79-0 start"><li>The circular spinner reaches 100% opacity.</li><li>The rotation of the circular spinner slows down.</li><li>The rate of translation of the refresh indicator slows down.</li></ul><p>After passing the threshold, completing the gesture will initiate a refresh.</p><p>Reversing the gesture past the threshold will cancel the refresh action.</p></div></section></div></div>
+<figcaption id="behavior-figure-caption-5"><p>Refreshing content via app bar action</p></figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="module col-1 h1-spacing"><div class="module"><h1>Threshold requirements</h1><p>To ensure intentional usage of the swipe to refresh gesture, the refresh indicator must pass a threshold before the app will refresh. This threshold is indicated by a number of cues: </p><ul class="lst-kix_b56pwaaxef79-0 start"><li>The circular spinner reaches 100% opacity</li><li>The rotation of the circular spinner slows down</li><li>The rate of translation of the refresh indicator slows down</li></ul><p>After passing the threshold, completing the gesture will initiate a refresh.</p><p>Reversing the gesture past the threshold will cancel the refresh action.</p></div></section></div></div>
                 </div>
               </div>
             
@@ -872,7 +995,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
             <span class="direction">Previous</span><span class="screen-reader">:</span>
             <div>
-              Settings 
+              Settings
             </div>
           </a>
           

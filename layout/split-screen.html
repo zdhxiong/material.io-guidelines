@@ -5,17 +5,15 @@
     <meta charset="utf-8">
 <link href="../static/default/css/main.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Roboto+Mono:400|Material+Icons" rel="stylesheet">
-<meta name="viewport" content="initial-scale=1, width=device-width"><title>Split screen - Layout - Material design guidelines</title>
-<meta itemprop="name" content="Split screen - Layout - Material design guidelines">
-<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Split screen - Layout - Material design guidelines">
+<meta name="viewport" content="initial-scale=1, width=device-width"><title>Split screen - Layout - Material Design</title>
+<meta itemprop="name" content="Split screen - Layout - Material Design"><meta property="og:type" content="article">
+<meta property="og:title" content="Split screen - Layout - Material Design">
 <meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:title" content="Split screen - Layout">
-<meta property="og:site_name" content="Material design guidelines">
+<meta property="og:title" content="Split screen - Layout - Material Design">
+<meta property="og:site_name" content="Material Design">
 <meta property="og:image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
-<meta property="article:section" content="Split screen - Layout">
+<meta property="article:section" content="Split screen - Layout - Material Design">
 <meta name="theme-color" content="#AD1457">
 <link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
 <link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
@@ -30,10 +28,10 @@
     
   </head>
 
-  <body class="site-material_ext_publish section-material-design noninitial-chapter color-pink qp-ui" data-qp-ui="{ 'Mask': {} }">
+  <body class="site-material_ext_publish section-material-design  noninitial-chapter color-pink qp-ui" data-qp-ui="{ 'Mask': {} }">
     
 <!-- Google Tag Manager -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -101,11 +99,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           
 
           <dl>
-            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material design</dt>
+            <dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
             <dd>
               
                 <a  href="../material-design/introduction.html">
-                  Introduction 
+                  Introduction
                   
                   </a>
               
@@ -153,7 +151,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="../motion/movement.html">
-                   Movement
+                  Movement
                   
                   </a>
               
@@ -435,7 +433,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="../patterns/gestures.html">
-                  Gestures 
+                  Gestures
                   
                   </a>
               
@@ -474,6 +472,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   
                   </a>
               
+                <a  href="../patterns/offline-states.html">
+                  Offline states
+                  
+                  </a>
+              
                 <a  href="../patterns/permissions.html">
                   Permissions
                   
@@ -485,17 +488,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </a>
               
                 <a  href="../patterns/search.html">
-                  Search 
+                  Search
                   
                   </a>
               
                 <a  href="../patterns/selection.html">
-                  Selection 
+                  Selection
                   
                   </a>
               
                 <a  href="../patterns/settings.html">
-                  Settings 
+                  Settings
                   
                   </a>
               
@@ -684,7 +687,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="chapter-content">
 
           <div class="article-content chapter-intro">
-            <div><h2><strong><strong>Android only</strong></strong></h2><h1>Split-screen mode allows two activities to be visible on screen at the same time.</h1></div>
+            <div><h2>Android only</h2><h1>Split-screen mode allows two activities to be visible on screen at the same time.</h1></div>
           </div>
 
           
@@ -722,7 +725,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><h1>User interaction required</h1><p>Apps are not allowed to invoke split-screen mode by themselves; the user must activate it. </p><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Launching new activities</h1><p>When an app launches a new activity, it will launch within the <strong>same portion</strong> <strong>of the screen</strong> by default. Apps will be resized to fit the split-screen view as necessary (unless your app isn’t compatible with the split-screen format).</p><p>When split-screen mode is active, apps may launch new activities in the <strong>opposite portion of the screen</strong> if the following criteria are met:</p><ul class="lst-kix_fv5lrrj255tl-0 start"><li>The original and new activities are related to each other and usable while in split-screen mode</li><li>The task the app helps accomplish warrants displaying two activities at once, and hiding the other app that was open</li><li>It is clear that the app will enter split-screen mode, such as with a button stating “Open in new window”</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 65.7894736842%"><img alt="" aria-describedby="usage-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3QUVLTVI0MHMxUVE/patterns_splitscreen_intro.png"/></div></div><figcaption id="usage-figure-caption-1"><p>Split screen shown in portrait mode on mobile (on the left) and landscape mode on tablet (on the right)</p></figcaption></figure></div></section></div></div>
+                  <div><h1>User interaction required</h1><p>Apps are not allowed to invoke split-screen mode by themselves; the user must activate it. </p><div class="col-list"><section class="module-figure col-2 h1-spacing"><div class="module"><h1>Launching new activities</h1><p>When an app launches a new activity, it will launch within the <strong>same portion</strong> <strong>of the screen</strong> by default. Apps will be resized to fit the split-screen view as necessary (unless your app isn’t compatible with the split-screen format).</p><p>When split-screen mode is active, apps may launch new activities in the <strong>opposite portion of the screen</strong> if the following criteria are met:</p><ul class="lst-kix_fv5lrrj255tl-0 start"><li>The original and new activities are related to each other and usable while in split-screen mode</li><li>The task the app helps accomplish warrants displaying two activities at once, and hiding the other app that was open</li><li>It is clear that the app will enter split-screen mode, such as with a button stating “Open in new window”</li></ul></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="frame" style="padding-top: 65.7894736842%">
+<img alt="" aria-describedby="usage-figure-caption-0" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3QUVLTVI0MHMxUVE/patterns-splitscreen-intro.png">
+</img></div>
+</div>
+<figcaption id="usage-figure-caption-0"><p>Split screen shown in portrait mode on mobile (on the left) and landscape mode on tablet (on the right)</p></figcaption>
+</figure>
+</div></section></div></div>
                 </div>
               </div>
             
@@ -768,7 +780,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   </svg>
                 </h2>
                 <div class="article-content">
-                  <div><p>To support split-screen usage, viewable content should be scaled to an appropriate size and density.        </p><p>Primary controls should be adapted for split-screen mode. For example, navigation tabs may be collapsed into a menu.</p><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>Responsive UI</h1><p>Apps in split-screen mode should elegantly adjust across device sizes and orientations. </p><p>Changing a device’s orientation should not cause the UI to change unexpectedly. For example, an app displaying a video in one of the split screens (in portrait mode) should not begin playback in full-screen mode if the device rotates to landscape mode.</p><p>Apps may use the same or different layouts for mobile and tablet:</p><ul class="lst-kix_twwe5kbnekhv-0 start"><li>Apps with <strong>similar layouts</strong> for mobile and tablet may switch between the tablet and mobile UIs when the app is resized, as the transition will not be jarring.</li><li>Apps with <strong>completely different layouts</strong> for mobile and tablet should avoid using the mobile UI on tablet in split-screen mode. Instead, the existing tablet UI should be adapted to fit the smaller size to ensure that users have a consistent experience on both devices.</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 91.0526315789%"><img alt="" aria-describedby="layout-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3Z1Z6dmd5d2N3dFU/patterns_splitscreen_01_samelayout.png"/></div></div><figcaption id="layout-figure-caption-1"><p>An app may use the same layout across mobile (left) and tablet (right).</p></figcaption></figure><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 91.0526315789%"><img alt="" aria-describedby="layout-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3SnZHWkFWbm5aLUk/patterns_splitscreen_02_differentlayout.png"/></div></div><figcaption id="layout-figure-caption-2"><p>An app may use different layouts across mobile (left) and tablet (right).</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>Design for condensed sizes</h1><p>To simplify adapting your app for the various sizes of split-screen mode, it is recommended to design for the smallest size first.</p><p>Create a layout that works at 220dp wide or tall by condensing elements or removing non-essential ones. The layout may be scaled upward from there.</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="layout-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3X1hXWnZRWWI1STQ/patterns_splitscreen_03_169mobile.png"/></div></div><figcaption id="layout-figure-caption-3"><p>When the split screen is active, the aspect ratio of an app in portrait orientation is 16:9 on mobile. </p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 91.0526315789%"><img alt="" aria-describedby="layout-figure-caption-4" src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0Bzhp5Z4wHba3SEg5dmxRUVBjS00/patterns_splitscreen_04_3415tablet.png"/></div></div><figcaption id="layout-figure-caption-4"><p>When the split screen is active, the aspect ratio of an app in portrait orientation is 34.15% on tablet.</p></figcaption></figure></div></section></div></div>
+                  <div><p>To support split-screen usage, viewable content should be scaled to an appropriate size and density.        </p><p>Primary controls should be adapted for split-screen mode. For example, navigation tabs may be collapsed into a menu.</p><div class="col-list"><section class="module-figure col-2 h1-spacing"><div class="module"><h1>Responsive UI</h1><p>Apps in split-screen mode should elegantly adjust across device sizes and orientations. </p><p>Changing a device’s orientation should not cause the UI to change unexpectedly. For example, an app displaying a video in one of the split screens (in portrait mode) should not begin playback in full-screen mode if the device rotates to landscape mode.</p><p>Apps may use the same or different layouts for mobile and tablet:</p><ul class="lst-kix_twwe5kbnekhv-0 start"><li>Apps with <strong>similar layouts</strong> for mobile and tablet may switch between the tablet and mobile UIs when the app is resized, as the transition will not be jarring</li><li>Apps with <strong>completely different layouts</strong> for mobile and tablet should avoid using the mobile UI on tablet in split-screen mode. Instead, the existing tablet UI should be adapted to fit the smaller size to ensure that users have a consistent experience on both devices.</li></ul></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="frame" style="padding-top: 91.0526315789%">
+<img alt="" aria-describedby="layout-figure-caption-0" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3Z1Z6dmd5d2N3dFU/patterns-splitscreen-01-samelayout.png">
+</img></div>
+</div>
+<figcaption id="layout-figure-caption-0"><p>An app may use the same layout across mobile (left) and tablet (right).</p></figcaption>
+</figure>
+<figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="frame" style="padding-top: 91.0526315789%">
+<img alt="" aria-describedby="layout-figure-caption-1" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3SnZHWkFWbm5aLUk/patterns-splitscreen-02-differentlayout.png">
+</img></div>
+</div>
+<figcaption id="layout-figure-caption-1"><p>An app may use different layouts across mobile (left) and tablet (right).</p></figcaption>
+</figure>
+</div></section></div><div class="col-list"><section class="module-figure-figure col-3 h1-spacing"><div class="module"><h1>Design for condensed sizes</h1><p>To simplify adapting your app for the various sizes of split-screen mode, it is recommended to design for the smallest size first.</p><p>Create a layout that works at 220dp wide or tall by condensing elements or removing non-essential ones. The layout may be scaled upward from there.</p></div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="frame" style="padding-top: 177.777777778%">
+<img alt="" aria-describedby="layout-figure-caption-2" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3X1hXWnZRWWI1STQ/patterns-splitscreen-03-169mobile.png">
+</img></div>
+</div>
+<figcaption id="layout-figure-caption-2"><p>When the split screen is active, the aspect ratio of an app in portrait orientation is 16:9 on mobile. </p></figcaption>
+</figure>
+</div><div class="figure">
+<figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="frame" style="padding-top: 91.0526315789%">
+<img alt="" aria-describedby="layout-figure-caption-3" src="https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bzhp5Z4wHba3SEg5dmxRUVBjS00/patterns-splitscreen-04-3415tablet.png">
+</img></div>
+</div>
+<figcaption id="layout-figure-caption-3"><p>When the split screen is active, the aspect ratio of an app in portrait orientation is 34.15% on tablet.</p></figcaption>
+</figure>
+</div></section></div></div>
                 </div>
               </div>
             
